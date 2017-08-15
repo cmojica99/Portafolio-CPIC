@@ -1,0 +1,382 @@
+html{
+	margin: 0px auto !important; 
+}
+nav.navbar{
+	background-color: #fff;
+  margin: 0px auto !important; 
+
+}
+div.da{
+	display: inline-block;
+  margin: 0px auto !important; 
+
+}
+
+
+.owl-nav{
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #fff;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+    width: 100%;
+}
+.owl-next, .owl-prev {
+    background-color: #fff;
+    display: inline-block;
+    margin: 5px auto;
+    height: 25px;
+    width: 100px;
+}
+.galeriaprev, .galerianext{
+  color: #ACACAC;
+  font-size: 4em; 
+  position: absolute;
+}
+.galeriaprev{
+ left: -50px;
+ top: 35%;
+}
+.galerianext{
+right: -50px;
+top: 35%;
+}
+.item1 {
+  position: relative;
+  padding: 10px;
+  color: black;
+  
+}
+.submenu {
+  display: none;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.38);
+  margin-top: 10px;
+}
+.item1:hover{
+  border-bottom: 1px solid black;
+}
+.item1:hover .submenu{
+  display: block;
+  position: absolute;
+
+
+}
+ul{
+  list-style: none;
+}
+a.bienestar{
+  color: black;
+  padding: 10px;
+  margin-left: 20px; 
+
+}
+a.bienestar:hover{
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+li a:hover{
+  color: black;
+  text-decoration: none;
+
+}
+li a {
+  color: black;
+}
+
+
+.ali{
+  font-family: "Tahoma";
+  color:#999;
+}
+ul.nav.nav-tabs.row{
+  background-color: rgba(192, 192, 192, 0.2);
+}
+.tab-content{
+  background-color: rgba(192, 192, 192, 0.2);
+  height: inherit;
+  overflow: hidden;
+}
+.formacion {
+  background-color: rgba(192, 192, 192, 0.2);
+  height: inherit;
+  overflow: hidden;
+}
+footer{
+  background-color: rgba(0, 91, 130, 0.8);
+  color: #fff;
+
+}
+.glyphicon.glyphicon-plus{
+  float: right;
+  color: #acacac;
+
+}
+.glyphicon.glyphicon-plus:hover{
+  color: rgba(0, 91, 130, 0.8);
+
+}
+
+.panel-group .panel , .panel-default>.panel-heading {
+background-color: transparent;
+  /*Aqui es donde se edita esa opacidad */
+  /*background-color: rgba(0, 0, 0, 0.36);*/
+}
+.panel-default{
+  border: none;
+  color: #999;
+}
+.panel-title{
+  color: #fff;
+  font-size: 2em;
+}
+.panel-body{
+  font-size: 20px;
+  text-align: left;
+}
+.tab-pane{
+  margin-top: 20px;
+}
+h4.panel-title{
+  color: #999;
+}
+.panel-title>a{
+  text-decoration: none;
+  color: rgb(0,92,99);
+}
+.panel-title>a:hover{
+    color: rgba(0, 91, 130, 0.8);
+}
+#gallery img:hover{
+  -webkit-transform:scale(1.05);
+  transform: scale(1.05);
+}
+#gallery img{
+  transition: 500ms;  
+}
+.galeria{
+  background-color: #fff; 
+  margin-top: 60px; 
+}
+.tex.col-md-4{
+  color:#000;
+  border: 1px solid #007881;
+  margin-left: 100px;
+  margin-top: 20px; 
+  height: 200px;
+  width: 280px;
+  padding: 20px;
+  margin-bottom: 25px;
+  transition: 500ms;
+
+}
+.tet.row{
+  background-color: #fff;
+  font-family: Tahoma;
+}
+.tex.col-md-4:hover{
+  -webkit-filter:opacity(.5);
+  filter: opacity(.5);
+  background-color: #007881;
+  box-shadow: 5px 5px 5px #000;
+  color:white;
+}
+.tex.col-md-4{
+  background-color: white;
+  box-shadow: 5px 5px 5px #007881;
+  margin-top: 60px; 
+  
+}
+button.btn-personalizada {
+  width: 100%;
+  border:1px solid red;
+}
+/*ventana modal*/
+    button#btnOpenModal {
+      background-color: rgba(0, 120, 128, 0.63);
+      color: #000000;
+      border-radius: 10%;
+      display: block;
+      font-size: 15px;
+      margin: 10px auto;
+      height: 25px;
+      width: 100px;
+      position: relative;
+      left: 700px;
+      font-family: Tahoma;
+
+    }
+    button#btnOpenModal:hover {
+      background-color: rgba(0, 120, 128, 0.63);
+      cursor: pointer;
+    }
+    section#modal {
+      background-color: rgba(0,0,0,.7);
+      height: 100%;
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      padding: 10px;
+
+    }
+    section#modal article {
+      background-color: #fff;
+      box-shadow: 0px 0px 12px 2px #000;
+      color: #6a7880;
+      margin: 15% auto;
+      padding: 20px;
+      position: relative;
+      top: -1000px;
+      width: 60%;
+    }
+    section#modal article h2 {
+      text-align: center;
+      text-transform: uppercase;
+    }
+    section#modal article p {
+      text-align: justify;
+    }
+    section#modal article button {
+      background-color: #802b39;
+      color: #fff;
+      display: block;
+      border: none;
+      font-size: 0.8em;
+      margin: 10px auto;
+      padding: 10px;
+    }
+    section#modal article button:hover {
+      background-color: #a43749;
+      cursor: pointer;
+    }
+
+/*Ventana modal registro*/    
+    button#btnOpenModal2 {
+      background-color: rgba(0, 120, 128, 0.63);
+      color: #000000;
+      border-radius: 10%;
+      font-size: 15px;
+      margin: 10px auto;
+      height: 25px;
+      width: 100px;
+      position: relative;
+      left: 700px;
+      font-family: Tahoma;
+
+    }
+    button#btnOpenModal2:hover {
+      background-color: rgba(0, 120, 128, 0.63);
+      cursor: pointer;
+    }
+    section#modal2 {
+      background-color: rgba(0,0,0,.7);
+      height: 100%;
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      padding: 10px;
+
+    }
+    section#modal2 article {
+      background-color: #fff;
+      box-shadow: 0px 0px 12px 2px #000;
+      color: #6a7880;
+      margin: 15% auto;
+      padding: 20px;
+      position: relative;
+      top: -1000px;
+      width: 60%;
+    }
+    section#modal2 article h2 {
+      text-align: center;
+      text-transform: uppercase;
+    }
+    section#modal2 article p {
+      text-align: justify;
+    }
+    section#modal2 article button {
+      background-color: #802b39;
+      color: #fff;
+      display: block;
+      border: none;
+      font-size: 0.8em;
+      margin: 10px auto;
+      padding: 10px;
+    }
+    section#modal2 article button:hover {
+      background-color: #a43749;
+      cursor: pointer;
+    }
+    #button_co{
+      color: #7FBBC0;
+    }
+    #panel-body{
+      color: black;
+      font-size: 17px;
+    }
+    .panel-heading{
+      border-collapse: 10px;
+    }
+    .panel-group{
+      font-size: 10px;
+    }
+    #el_mas{
+      position: absolute;
+      top: 18px;
+    right: 800px;
+    font-size: 190px;
+
+    }
+    a.pola{
+      color: #000;
+    }
+    button.inicio {
+      position: relative;
+      left: 380px;
+      border: none;
+      background-color: #fff;
+    }
+    a.pola:hover {
+      text-decoration: none;
+      color: #B9BBB0;
+
+
+
+
+   
+   
+/*.accordion-group .accordion-heading:after {
+        background: #E79925;
+    }
+
+.accordion-group {
+        background: #f8e0bd;
+        
+    }
+
+.accordion{margin-bottom:20px;}
+.accordion-group{margin-bottom:2px;border:1px solid #e5e5e5;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px; width:500px;}
+.accordion-heading{border-bottom:0;}
+.accordion-heading .accordion-toggle{display:block;padding:8px 7px;}
+.accordion-toggle{cursor:pointer;}
+.accordion-inner{padding:9px 15px;border-top:1px solid #e5e5e5;}
+
+.accordion-body{-webkit-transition:"height .4s linear";-moz-transition:"height .4s linear";-o-transition:"height .4s linear";transition:"height .4s linear";}
+.accordion-group{border:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;margin-bottom:5px;}
+.accordion-group .accordion-heading{position:relative;}
+
+/*Control del cambio de estado */
+.accordion-group .accordion-heading:after{pointer-events:none;color:#fff;content:"+";font-size:15px;padding:8px 13px;position:absolute;top:0;right:0;bottom:auto auto;left:auto;}
+.accordion-group .accordion-heading.accordion-opened:after{content:"-";padding:8px 15px;}
+
+
+.accordion-group a{color:#231f20;}
+.accordion-group a:hover{text-decoration:none;}
+.accordion-group .accordion-inner{border:none;padding:20px;}*/
