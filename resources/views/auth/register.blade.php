@@ -59,6 +59,17 @@
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
                             </div>
                         </div>
+                        <div class="form-group">
+                            <label for="password-confirm" class="col-md-4 control-label">Confirm Password</label>
+
+                            <div class="col-md-6">
+                                <select name="dependencia" id="">
+                                    <option value="">Seleccione su rol</option>
+                                    <option value="Administrador">Administrador</option>
+                                    <option value="Empleado Bienestar">Empleado Bienestar</option>
+                                </select>
+                            </div>
+                        </div>
 
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">

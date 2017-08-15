@@ -8,10 +8,14 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'PORTAFOLIO') }}</title>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/master.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/gallery.css')}}">
 </head>
 <body>
     <div id="app">
@@ -27,10 +31,11 @@
                         <span class="icon-bar"></span>
                     </button>
 
-                    <!-- Branding Image -->
-                    <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
-                    </a>
+                    @if(Auth::check())
+                        <a href="{{ url('welcome') }}" class="navbar-brand" href="#">PORTAFOLIO</a>
+                      @else
+                        <a href="{{ url('/') }}" class="navbar-brand" href="#">PORTAFOLIO</a>
+                      @endif
                 </div>
 
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
@@ -43,8 +48,8 @@
                     <ul class="nav navbar-nav navbar-right">
                         <!-- Authentication Links -->
                         @if (Auth::guest())
-                            <li><a href="{{ route('login') }}">Login</a></li>
-                            <li><a href="{{ route('register') }}">Register</a></li>
+                            <li><a href="{{ route('login') }}">Iniciar sesión</a></li>
+                            
                         @else
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -56,7 +61,7 @@
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                            Logout
+                                            Cerrar sesión
                                         </a>
 
                                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
@@ -76,5 +81,39 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
+    <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
+
+    <script src="{{ asset('js/carousel.js') }}"></script>
+    <script src="{{ asset('js/gallery.js') }}"></script>
+    <script>
+        $('.container-gallery').gallery({
+          height: 750,
+          items: 10,
+          480: {
+            items: 2,
+            height: 400,
+            thmbHeight: 100
+          },
+          768: {
+            
+            items: 3,
+            height: 500,
+            thmbHeight: 120
+          },
+          600: {
+            
+            items: 4
+          },
+          992 : {
+            
+            items: 5,
+            height: 350
+          }
+
+        });
+
+    </script>
+
 </body>
 </html>

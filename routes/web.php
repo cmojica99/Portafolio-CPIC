@@ -14,8 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/index','ImageController@index');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/index','ImageController@index');
+
+
+Route::get('/welcome', 'WelcomeController@index');
+
+Route::get('/admin', 'AdminController@index');

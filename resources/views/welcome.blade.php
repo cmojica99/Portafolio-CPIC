@@ -1,4 +1,4 @@
-@extends('layout-app/welcome')
+@extends('layouts.app')
 @section('title', 'Portafolio CPIC')
 
 @section('content')
