@@ -1,4 +1,4 @@
-@extends('layout-app.base')
+@extends('layouts.app')
 
 @section('title', 'Lista de Artículos')
 
