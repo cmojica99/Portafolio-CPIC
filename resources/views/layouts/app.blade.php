@@ -18,6 +18,24 @@
     <link rel="stylesheet" href="{{ asset('css/gallery.css')}}">
 </head>
 <body>
+    <div id="sidebar">
+        <div id="sidebar-content">
+            <ul class="list-unstyled">
+                <li>
+                    <a href="">Opción1</a>
+                </li>
+                <li>
+                    <a href="">Opción1</a>
+                </li>
+                <li>
+                    <a href="">Opción1</a>
+                </li>
+                <li>
+                    <a href="">Opción1</a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <div id="app">
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
@@ -76,7 +94,11 @@
             </div>
         </nav>
 
-        @yield('content')
+        <div id="main-content">
+            @yield('content')            
+        </div>
+
+
     </div>
 
     <!-- Scripts -->

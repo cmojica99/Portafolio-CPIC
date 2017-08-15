@@ -1,6 +1,28 @@
-html{
-	margin: 0px auto !important; 
+html {
+	height: 100%;
 }
+body {
+  min-height: 100%;
+}
+
+#sidebar {
+  background: #cfc;
+  height: 100%;
+  padding-top: 50px;
+  position: fixed;
+  width: 260px;
+}
+#sidebar-content {
+  padding: 2rem;
+}
+
+#main-content {
+  margin-left: 260px;
+  padding: 2rem;
+}
+
+
+
 nav.navbar{
 	background-color: #fff;
   margin: 0px auto !important; 
