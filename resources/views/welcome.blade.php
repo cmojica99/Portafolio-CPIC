@@ -405,6 +405,7 @@
 
 
 @endsection
+
 @section('footer')
 <footer class="footer">
         <div class="container">
@@ -433,38 +434,26 @@
                         <li>
                         	<span>Horario De Atencion: Lunes a viernes de 8:00 a 5:00 pm ( Jornada Continua )</span>
                         </li>
+
                        
                       
                     </ul>    
+                    <div class="container">
+			<nav class="footer-social-networks">
+                <a href="" data-toggle="tooltip" title="Facebook" class=" social_web"><i class="fa fa-facebook fa-3x social_networks"></i></a>
+                <a  social_networkshref="" data-toggle="tooltip" title="Twitter" class=" social_web "><i class="fa fa-twitter-square fa-3x social_networks" aria-hidden="true"></i></a>
+                <a href="" data-toggle="tooltip" title="Instagram" class=" social_web "><i class="fa fa-instagram fa-3x social_networks"></i></a>
+                <a href="" data-toggle="tooltip" title="Google +" class="social_web "><i class="fa fa-google-plus fa-3x social_networks"></i></a>
+            </nav>  
+	</div>
                     <a href="javascript:void(0)" class="back-to-top animated">
                 <i class="fa fa-angle-up"></i>
             </a>
-            <nav class="footer-social-networks">
-                <a style="color: black;"href="" data-toggle="tooltip" title="Facebook" class="facebook-link"><i class="fa fa-facebook fa-2x"></i></a>
-                <a href="" data-toggle="tooltip" title="Twitter" class="twitter-link"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-                <a href="" data-toggle="tooltip" title="Instagram" class="instagram-link"><i class="fa fa-instagram fa-2x"></i></a>
-                <a href="" data-toggle="tooltip" title="Google +" class="google-plus-link"><i class="fa fa-google-plus fa-2x"></i></a>
-            </nav>  
+            
             <p class="">&copy; Todos los derechos reservados {{date('Y')}}  </p>        
                 </div>
 
-                <div class="col-md-6">
-                	<h4> Contactate Con Nosotros</h4>
-                	<div class="input-group">
-				  		<span class="input-group-addon" id="basic-addon1">@</span>
-				  		<input type="email" class="form-control" placeholder="Correo Electronico" aria-describedby="basic-addon1">
-					</div>
-					<label for=""> Envianos Un Mensaje</label>
-					<textarea name="" id="" cols="76" rows="10" placeholder="Envia tu Peticion, Queja, Reclamo o Sugerencia">
-						
-					</textarea>
-					<button class="btn btn-success" type="submit" value="enviar"> Enviar
-
-
-
-
-
-                </div>
+                
             </div>
             
 

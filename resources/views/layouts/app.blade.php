@@ -11,9 +11,8 @@
     <title>{{ config('app.name', 'PORTAFOLIO') }}</title>
 
     <!-- Styles -->
-    <link href="http://designers.hubspot.com/hs-fs/hub/327485/file-2054199286-css/font-awesome.css"En Inglés rel="stylesheet">
+    <link rel="stylesheet" href="{{asset ('css/font-awesome.min.css')}}">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-¿
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{ asset('css/master.css')}}">
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css')}}">
@@ -104,6 +103,9 @@
 
         <div id="{{ Auth::check() ? 'main-content' : ''}}">
             @yield('content')            
+        </div>
+        <div>
+            @yield('redessociales')
         </div>
 
             

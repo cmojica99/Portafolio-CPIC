@@ -371,6 +371,14 @@ button.btn-personalizada {
     a.pola:hover {
       text-decoration: none;
       color: #B9BBB0;
+    }
+    .social_networks{
+      margin-right: 10px;
+ 
+    }
+    .social_web{
+      color: #000;
+    }
 
 
 
