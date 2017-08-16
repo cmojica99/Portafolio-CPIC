@@ -316,7 +316,7 @@
 		<div class="container-fluid">
 
 				<div class="tet row">
-							<img src="public/imgs/encabe_biene.png" alt="" width="100%" height="90px">
+							<img src="{{('imgs/encabe_biene.png')}}" alt="" width="100%" height="90px">
 							<div class= "tex col-md-4">
 							    <strong>SALUD</strong><br>
 								<p>
@@ -398,6 +398,10 @@
 		<img src="{{ asset('imgs/bienestar/18486209_1557457784286967_1672427826755756098_n.jpg')}}" alt="">
 		<img src="{{ asset('imgs/bienestar/18557252_1792156341100490_1128340426299515722_n.jpg')}}" alt="">
 		<img src="{{ asset('imgs/bienestar/18519612_1792156577767133_5055525397851424726_n.jpg')}}" alt="">
+		<img src="{{ asset('imgs/bienestar/18519824_1792156884433769_8170616410246099583_n.jpg')}}" alt="">
+		<img src="{{ asset('imgs/bienestar/18582241_1792157004433757_2606557666471775295_n.jpg')}}" alt="">
+		<img src="{{ asset('imgs/bienestar/18519919_1792156961100428_4487891828541719760_n.jpg')}}" alt="">
+		<img src="{{ asset('imgs/bienestar/18581619_1792156784433779_8184779087522776733_n.jpg')}}" alt="">
 		
 	</div>
 </section>

@@ -9,7 +9,7 @@ body {
 
 .large-image{
 	background-size: contain !important;
-	background-color: black; 
+	background-color: #fff; 
 	height: 500px !important;
 	width: 100%;
 }

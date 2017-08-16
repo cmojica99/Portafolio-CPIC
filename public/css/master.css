@@ -6,7 +6,7 @@ body {
 }
 
 #sidebar {
-  background: #cfc;
+  background: #efefef;
   height: 100%;
   padding-top: 50px;
   position: fixed;
@@ -15,9 +15,24 @@ body {
 #sidebar-content {
   padding: 2rem;
 }
+#sidebar-content li{
+  margin-bottom: 50px;
+}
+#usersr{
+  height: 50px;
+}
+.elim, .edit{
+  position: absolute;
+  background-color:  rgba(255, 255, 255, 0.29);
+}
+.elim{
+  right: 15px;
+}
 #perfil{
       width: 215px;
     height: 215px;
+    padding: 10px;
+    border-radius: 50%;
 }
 #main-content {
   margin-left: 260px;

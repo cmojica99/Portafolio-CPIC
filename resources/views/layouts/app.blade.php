@@ -21,21 +21,18 @@
     @if(Auth::check())
     <div id="sidebar">
         <div id="sidebar-content">
-            <ul class="list-unstyled">
+            <ul class="list-unstyled text-center">
                 <li>
-                    <img id="perfil" src="{{ asset('imgs/sl3.png')}}" alt="">
+                    <img id="perfil" src="{{ asset('imgs/14052529_1749779515295896_1626367573_n.jpg')}}" alt="">
                 </li>
                 <li>
-                    <a href="">Opción1</a>
+                    <a href="">Usuarios</a>
                 </li>
                 <li>
-                    <a href="">Opción1</a>
+                    <a href="welcome">Inicio</a>
                 </li>
                 <li>
-                    <a href="">Opción1</a>
-                </li>
-                <li>
-                    <a href="">Opción1</a>
+                    <a href="">Programas de formación</a>
                 </li>
             </ul>
         </div>
