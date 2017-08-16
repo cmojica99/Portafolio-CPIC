@@ -96,16 +96,15 @@
             </div>
         </nav>
 
-
+        
         <div id="{{ Auth::check() ? 'main-content' : ''}}">
-            @yield('content')            
+            @yield('content')   
+             @yield('footer')         
         </div>
-        <div>
-            @yield('redessociales')
-        </div>
+      
 
             
-        @yield('footer')
+       
 
 
 

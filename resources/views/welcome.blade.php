@@ -415,7 +415,7 @@
         <div class="container">
             <div class="row">
                 
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <h4 > INFORMACIÓN </h4>
                     <ul class="list-unstyled">
                    		 <li>Centro de Procesos Industriales</li>
@@ -443,21 +443,31 @@
                       
                     </ul>    
                     <div class="container">
-			<nav class="footer-social-networks">
-                <a href="" data-toggle="tooltip" title="Facebook" class=" social_web"><i class="fa fa-facebook fa-3x social_networks"></i></a>
-                <a  social_networkshref="" data-toggle="tooltip" title="Twitter" class=" social_web "><i class="fa fa-twitter-square fa-3x social_networks" aria-hidden="true"></i></a>
-                <a href="" data-toggle="tooltip" title="Instagram" class=" social_web "><i class="fa fa-instagram fa-3x social_networks"></i></a>
-                <a href="" data-toggle="tooltip" title="Google +" class="social_web "><i class="fa fa-google-plus fa-3x social_networks"></i></a>
-            </nav>  
-	</div>
+						<nav class="footer-social-networks">
+			                <a href="" data-toggle="tooltip" title="Facebook" class=" social_web"><i class="fa fa-facebook fa-3x social_networks"></i></a>
+			                <a  social_networkshref="" data-toggle="tooltip" title="Twitter" class=" social_web "><i class="fa fa-twitter-square fa-3x social_networks" aria-hidden="true"></i></a>
+			                <a href="" data-toggle="tooltip" title="Instagram" class=" social_web "><i class="fa fa-instagram fa-3x social_networks"></i></a>
+			                <a href="" data-toggle="tooltip" title="Google +" class="social_web "><i class="fa fa-google-plus fa-3x social_networks"></i></a>
+           				 </nav>  
+					</div>
                     <a href="javascript:void(0)" class="back-to-top animated">
-                <i class="fa fa-angle-up"></i>
-            </a>
+                	<i class="fa fa-angle-up"></i>
+            		</a>
             
             <p class="">&copy; Todos los derechos reservados {{date('Y')}}  </p>        
                 </div>
 
-                
+                <div class="col-md-5 etica_sena">
+                	<img src="{{asset('imgs/icontecA.png')}}">
+                	<img src="{{asset('imgs/icontecB.png')}}">
+                	<img src="{{asset('imgs/icontecC.png')}}">
+                	<img src="{{asset('imgs/icontecD.png')}}">
+                	 <ul class="fecha_ini">
+							<li  class="fecha_mod">Última modificación: 
+							16/08/2017 11:18 a. m.</li>
+                </div>
+               
+
             </div>
             
 
