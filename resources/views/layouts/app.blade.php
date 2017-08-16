@@ -25,7 +25,7 @@
                 <li>
                     <img id="perfil" src="{{ asset('imgs/14052529_1749779515295896_1626367573_n.jpg')}}" alt="">
                 </li>
-                <li>
+                <li class="active">
                     <a href="">Usuarios</a>
                 </li>
                 <li>
