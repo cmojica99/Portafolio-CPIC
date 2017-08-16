@@ -15,7 +15,10 @@ body {
 #sidebar-content {
   padding: 2rem;
 }
-
+#perfil{
+      width: 215px;
+    height: 215px;
+}
 #main-content {
   margin-left: 260px;
   padding: 2rem;

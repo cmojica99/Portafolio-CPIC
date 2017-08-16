@@ -18,9 +18,13 @@
     <link rel="stylesheet" href="{{ asset('css/gallery.css')}}">
 </head>
 <body>
+    @if(Auth::check())
     <div id="sidebar">
         <div id="sidebar-content">
             <ul class="list-unstyled">
+                <li>
+                    <img id="perfil" src="{{ asset('imgs/sl3.png')}}" alt="">
+                </li>
                 <li>
                     <a href="">Opción1</a>
                 </li>
@@ -36,6 +40,7 @@
             </ul>
         </div>
     </div>
+    @endif
     <div id="app">
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
@@ -94,12 +99,14 @@
             </div>
         </nav>
 
-        <div id="main-content">
+
+        <div id="{{ Auth::check() ? 'main-content' : ''}}">
             @yield('content')            
         </div>
 
 
     </div>
+
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>

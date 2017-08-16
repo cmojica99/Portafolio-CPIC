@@ -396,6 +396,8 @@
 		<img src="{{ asset('imgs/bienestar/20139672_1449624228463314_1747501999493690269_n.jpg')}}" alt="">
 		<img src="{{ asset('imgs/bienestar/14962773_583713631813941_9008235928232615140_n.jpg')}}" alt="">
 		<img src="{{ asset('imgs/bienestar/18486209_1557457784286967_1672427826755756098_n.jpg')}}" alt="">
+		<img src="{{ asset('imgs/bienestar/18557252_1792156341100490_1128340426299515722_n.jpg')}}" alt="">
+		<img src="{{ asset('imgs/bienestar/18519612_1792156577767133_5055525397851424726_n.jpg')}}" alt="">
 		
 	</div>
 </section>
