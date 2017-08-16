@@ -1,3 +1,4 @@
+
 @extends('layouts.app')
 @section('title', 'Portafolio CPIC')
 
@@ -405,6 +406,62 @@
 		
 	</div>
 </section>
-<footer>Todos los derechos reservados</footer>
+
 
 @endsection
+
+@section('footer')
+<footer class="footer">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-6">
+                    <h4 > INFORMACIÓN </h4>
+                    <ul class="list-unstyled">
+                   		 <li>Centro de Procesos Industriales</li>
+                   		 <li> Regional Caldas</li>
+                        <li>Servicio Nacional de Aprendizaje SENA</li>
+                        <li>Ministerio de la Protección Social</li>
+                        
+                        <li>
+                            <address>Dirección: Kilómetro 10 vía al Magdalena </address>
+                        </li>
+                        <li>
+                            <span>Ubicacion: </span> Vista Panorámica Bloques principales  
+                        </li>
+                        <li>
+                            <a href="mailto:crmorales@misena.edu.co">Correo Electrónico: crmorales@misena.edu.co</a>
+                        </li>
+                        <li>
+                            <a href="tel://5925555">Telefono : 8748664</a>
+                        </li>
+                        <li>
+                        	<span>Horario De Atencion: Lunes a viernes de 8:00 a 5:00 pm ( Jornada Continua )</span>
+                        </li>
+
+                       
+                      
+                    </ul>    
+                    <div class="container">
+			<nav class="footer-social-networks">
+                <a href="" data-toggle="tooltip" title="Facebook" class=" social_web"><i class="fa fa-facebook fa-3x social_networks"></i></a>
+                <a  social_networkshref="" data-toggle="tooltip" title="Twitter" class=" social_web "><i class="fa fa-twitter-square fa-3x social_networks" aria-hidden="true"></i></a>
+                <a href="" data-toggle="tooltip" title="Instagram" class=" social_web "><i class="fa fa-instagram fa-3x social_networks"></i></a>
+                <a href="" data-toggle="tooltip" title="Google +" class="social_web "><i class="fa fa-google-plus fa-3x social_networks"></i></a>
+            </nav>  
+	</div>
+                    <a href="javascript:void(0)" class="back-to-top animated">
+                <i class="fa fa-angle-up"></i>
+            </a>
+            
+            <p class="">&copy; Todos los derechos reservados {{date('Y')}}  </p>        
+                </div>
+
+                
+            </div>
+            
+
+        </div>
+    </footer>
+@endsection
+
