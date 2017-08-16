@@ -11,6 +11,7 @@
     <title>{{ config('app.name', 'PORTAFOLIO') }}</title>
 
     <!-- Styles -->
+    <link href="http://designers.hubspot.com/hs-fs/hub/327485/file-2054199286-css/font-awesome.css"En Inglés rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 ¿
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}">
@@ -114,6 +115,7 @@
 
 
     <!-- Scripts -->
+
     <script src="{{ asset('js/app.js') }}"></script>
     <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
     <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
