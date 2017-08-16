@@ -37,23 +37,39 @@
                 </p>
 
                 <form action="" id="contact-form">
-                	<label  for="">Nombre</label>
+                <div class="form-group">
+                	<label  class="label-effect" for="">Nombre</label>
+                	<span class="focus-border"></span>
                 	<input type="text" name="nombre" class="form-control label-effect" placeholder="Nombre">
-
+                	
+                </div>
+                <div>
                 	<label class="label-effect" for="">Correo Electronico</label>
+                	<span class="focus-border"></span>
                 	<input type="email" name="email" class="form-control label-effect" placeholder="Correo Electronico">
-					
-					<label  for="">Asunto</label>
+                	
+                </div>
+                <div class="form-group">
+					<label  class="label-effect" for="">Asunto</label>
+					<span class="focus-border"></span>
                 	<select id="pqrs" class="form-control label-effect">
                 		<option value="">Seleccione Una Opcion</option>
                 		<option value="1">Consulta</option>
                 		<option value="2">Queja</option>
                 		<option value="3">Sugerencia</option>
                 	</select>
-
-
-                	<label >Mensaje</label>
+                	
+                </div>
+                <div class="form-group">
+                	<label class="label-effect">Mensaje</label>
+                	<span class="focus-border"></span>
                 	<textarea name="" class="form-control label-effect" id="" cols="30" rows="10" placeholder="Escribenos Tu Inconveniente"></textarea>
+                	
+                </div>
+
+					
+
+
 
                 	<button class="btn btn-success" type="submit">Enviar</button> 
                 </form>
@@ -112,7 +128,9 @@
     
 </section>
 
-<script src="../../public/js/googlemaps.js"></script>
+
+
+
   
 
 

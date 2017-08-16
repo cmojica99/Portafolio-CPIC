@@ -123,12 +123,16 @@
     <!-- Scripts -->
 
     <script src="{{ asset('js/app.js') }}"></script>
-    <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
+    <script src="{{ asset('js/jquery-3.1.1.js') }}"></script>
     <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.min.js')}}"
+    <script src="{{ asset('js/bootstrap.min.js')}}"></script>
+    <script src="{{ asset('js/site.js') }}"></script>
+
 
     <script src="{{ asset('js/carousel.js') }}"></script>
+    
     <script src="{{ asset('js/gallery.js') }}"></script>
+
     <script>
         $('.container-gallery').gallery({
           height: 750,
@@ -155,6 +159,7 @@
           }
 
         });
+
 
     </script>
 
