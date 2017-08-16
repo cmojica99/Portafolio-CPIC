@@ -11,12 +11,11 @@
     <title>{{ config('app.name', 'PORTAFOLIO') }}</title>
 
     <!-- Styles -->
-    <link rel="stylesheet" href="{{asset ('css/font-awesome.min.css')}}">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/master.css')}}">
+    <link rel="stylesheet" href="{{asset ('css/font-awesome.min.css')}}">
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{ asset('css/gallery.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/master.css')}}">
 </head>
 <body>
     @if(Auth::check())
@@ -30,7 +29,7 @@
                     <a href="">Usuarios</a>
                 </li>
                 <li>
-                    <a href="welcome">Inicio</a>
+                    <a href="{{ url('/') }}">Inicio</a>
                 </li>
                 <li>
                     <a href="">Programas de formación</a>
@@ -116,10 +115,7 @@
     <!-- Scripts -->
 
     <script src="{{ asset('js/app.js') }}"></script>
-    <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
     <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.min.js')}}"
-
     <script src="{{ asset('js/carousel.js') }}"></script>
     <script src="{{ asset('js/gallery.js') }}"></script>
     <script>
