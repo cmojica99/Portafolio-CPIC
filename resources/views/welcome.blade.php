@@ -26,16 +26,16 @@
 		<!-- Nav tabs -->
 		<ul class="nav nav-tabs row" role="tablist">
 			<li role="presentation" class="col-md-3"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">
-				<img src="public/imgs/sennova.png" alt="" width="100%">
+				<img src="{{ asset('imgs/sennova.png')}}" alt="" width="100%">
 			</a></li>
 			<li role="presentation" class="col-md-3"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
-				<img src="public/imgs/ape.png" width="100%" alt="">
+				<img src="{{ asset('imgs/ape.png')}}" width="100%" alt="">
 			</a></li>
 			<li role="presentation" class="col-md-3"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
-				<img src="public/imgs/tecnoparque.png" width="100%" alt="">
+				<img src="{{ asset('imgs/tecnoparque.png')}}" width="100%" alt="">
 			</a></li>
 			<li role="presentation" class="col-md-3"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">
-				<img src="public/imgs/world skills.png" width="100%" alt="">
+				<img src="{{ asset('imgs/world skills.png')}}" width="100%" alt="">
 			</a></li>
 		</ul>
 
