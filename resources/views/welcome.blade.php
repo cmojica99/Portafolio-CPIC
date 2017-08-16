@@ -1,3 +1,4 @@
+
 @extends('layouts.app')
 @section('title', 'Portafolio CPIC')
 
@@ -401,6 +402,73 @@
 		
 	</div>
 </section>
-<footer>Todos los derechos reservados</footer>
+
 
 @endsection
+@section('footer')
+<footer class="footer">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-6">
+                    <h4 > INFORMACIÓN </h4>
+                    <ul class="list-unstyled">
+                   		 <li>Centro de Procesos Industriales</li>
+                   		 <li> Regional Caldas</li>
+                        <li>Servicio Nacional de Aprendizaje SENA</li>
+                        <li>Ministerio de la Protección Social</li>
+                        
+                        <li>
+                            <address>Dirección: Kilómetro 10 vía al Magdalena </address>
+                        </li>
+                        <li>
+                            <span>Ubicacion: </span> Vista Panorámica Bloques principales  
+                        </li>
+                        <li>
+                            <a href="mailto:crmorales@misena.edu.co">Correo Electrónico: crmorales@misena.edu.co</a>
+                        </li>
+                        <li>
+                            <a href="tel://5925555">Telefono : 8748664</a>
+                        </li>
+                        <li>
+                        	<span>Horario De Atencion: Lunes a viernes de 8:00 a 5:00 pm ( Jornada Continua )</span>
+                        </li>
+                       
+                      
+                    </ul>    
+                    <a href="javascript:void(0)" class="back-to-top animated">
+                <i class="fa fa-angle-up"></i>
+            </a>
+            <nav class="footer-social-networks">
+                <a href="" data-toggle="tooltip" title="Facebook" class="facebook-link"><i class="fa fa-facebook fa-2x"></i></a>
+                <a href="" data-toggle="tooltip" title="Twitter" class="twitter-link"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                <a href="" data-toggle="tooltip" title="Instagram" class="instagram-link"><i class="fa fa-instagram fa-2x"></i></a>
+                <a href="" data-toggle="tooltip" title="Google +" class="google-plus-link"><i class="fa fa-google-plus fa-2x"></i></a>
+            </nav>  
+            <p class="">&copy; Todos los derechos reservados {{date('Y')}}  </p>        
+                </div>
+
+                <div class="col-md-6">
+                	<h4> Contactate Con Nosotros</h4>
+                	<div class="input-group">
+				  		<span class="input-group-addon" id="basic-addon1">@</span>
+				  		<input type="email" class="form-control" placeholder="Correo Electronico" aria-describedby="basic-addon1">
+					</div>
+					<label for=""> Envianos Un Mensaje</label>
+					<textarea name="" id="" cols="76" rows="10" placeholder="Envia tu Peticion, Queja, Reclamo o Sugerencia">
+						
+					</textarea>
+					<button class="btn btn-success" type="submit" value="enviar"> Enviar
+
+
+
+
+
+                </div>
+            </div>
+            
+
+        </div>
+    </footer>
+@endsection
+

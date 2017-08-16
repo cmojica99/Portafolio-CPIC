@@ -12,6 +12,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+¿
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{ asset('css/master.css')}}">
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css')}}">
@@ -104,6 +105,10 @@
             @yield('content')            
         </div>
 
+            
+        @yield('footer')
+
+
 
     </div>
 
@@ -112,6 +117,7 @@
     <script src="{{ asset('js/app.js') }}"></script>
     <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
     <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.min.js')}}"
 
     <script src="{{ asset('js/carousel.js') }}"></script>
     <script src="{{ asset('js/gallery.js') }}"></script>
