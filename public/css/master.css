@@ -93,13 +93,27 @@ top: 35%;
 }
 ul{
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
+
+
+li.fecha_mod{
+
+  margin: 0;
+  padding: 0;
+}
+.fecha_ini{
+  margin-top: 145px;
+}
+
 a.bienestar{
   color: black;
   padding: 10px;
   margin-left: 20px; 
 
 }
+
 a.bienestar:hover{
   color: black;
   text-decoration: none;
@@ -133,7 +147,7 @@ ul.nav.nav-tabs.row{
   overflow: hidden;
 }
 footer{
-  background-color: rgba(0, 91, 130, 0.8);
+background: -webkit-linear-gradient(left, #337b99 , #000);
   color: #fff;
 
 }
@@ -372,13 +386,17 @@ button.btn-personalizada {
       text-decoration: none;
       color: #B9BBB0;
     }
+    .etica_sena{
+      margin-top: 20px;
+    }
     .social_networks{
       margin-right: 10px;
  
     }
     .social_web{
-      color: #000;
+      color: #fff;
     }
+
 
 
 
