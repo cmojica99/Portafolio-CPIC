@@ -37,13 +37,14 @@
                 </p>
 
                 <form action="" id="contact-form">
-                	<label for="">Nombre</label>
-                	<input type="text" name="nombre" class="form-control nombre" placeholder="Nombre">
+                	<label  for="">Nombre</label>
+                	<input type="text" name="nombre" class="form-control label-effect" placeholder="Nombre">
 
-                	<label for="">Correo Electronico</label>
-                	<input type="email" name="email" class="form-control email" placeholder="Correo Electronico">
-
-                	<select id="pqrs" class="form-control">
+                	<label class="label-effect" for="">Correo Electronico</label>
+                	<input type="email" name="email" class="form-control label-effect" placeholder="Correo Electronico">
+					
+					<label  for="">Asunto</label>
+                	<select id="pqrs" class="form-control label-effect">
                 		<option value="">Seleccione Una Opcion</option>
                 		<option value="1">Consulta</option>
                 		<option value="2">Queja</option>
@@ -51,10 +52,10 @@
                 	</select>
 
 
-                	<label for="" class="form-control">Mensaje</label>
-                	<textarea name="" id="" cols="30" rows="10" placeholder="Escribenos Tu Inconveniente"></textarea>
+                	<label >Mensaje</label>
+                	<textarea name="" class="form-control label-effect" id="" cols="30" rows="10" placeholder="Escribenos Tu Inconveniente"></textarea>
 
-                	<button type="submit"></button> Enviar
+                	<button class="btn btn-success" type="submit">Enviar</button> 
                 </form>
 
                     

@@ -202,6 +202,16 @@ h4.panel-title{
   background-color: #fff; 
   margin-top: 60px; 
 }
+.label-effect{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 9px;
+    color: inherit;
+    transition: 0.3s;
+    z-index: 2;
+    letter-spacing: 0.5px;
+}
 .tex.col-md-4{
   color:#000;
   border: 1px solid #007881;
