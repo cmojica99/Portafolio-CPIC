@@ -147,7 +147,6 @@
 			</div>
 		</div>
 
-
 	</div>
 </section>
 <!-- Galeria -->
@@ -215,9 +214,8 @@
 
 
 				</div>
-
-
 			</div>
 		</footer>
-		@endsection
+@endsection
+
 

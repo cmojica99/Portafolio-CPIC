@@ -27,6 +27,8 @@
                 </li>
                 <li class="active">
                     <a href="">Usuarios</a>
+                    <a href="{{ url('/admin') }}">Usuarios</a>
+
                 </li>
                 <li>
                     <a href="{{ url('/') }}">Inicio</a>

@@ -13,6 +13,10 @@ body {
   width: 260px;
 
 }
+
+.container {
+  width: 1054px;
+}
 #sidebar-content {
   padding: 2rem;
 }
@@ -37,6 +41,7 @@ div.tarjeta2{
 
 
 }
+
 .elim, .edit{
   position: absolute;
   background-color:  rgba(255, 255, 255, 0.29);
@@ -125,7 +130,6 @@ li{
   margin: 0;
   padding: 0;
 }
-
 
 li.fecha_mod{
 
