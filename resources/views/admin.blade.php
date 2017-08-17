@@ -8,8 +8,8 @@
 		<button class="btn btn-default elim btn-delete-img"><i class="glyphicon glyphicon-remove"></i> </button>
 
 		<img class="img-responsive" src="{{ asset($us->image)}}">
-		<p class="text-center"><strong></strong></p>
-		<p class="text-center"></p>
+		<p class="text-center"><strong>{{$us->name}}</strong></p>
+		<p class="text-center">{{$us->dependencia}}</p>
 	</div>
 </div>
 @endforeach

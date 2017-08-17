@@ -23,7 +23,7 @@
         <div id="sidebar-content">
             <ul class="list-unstyled text-center">
                 <li>
-                    <img id="perfil" src="{{ asset('imgs/14052529_1749779515295896_1626367573_n.jpg')}}" alt="">
+                    <img id="perfil" src="{{ asset(Auth::user()->image)}}" alt="" class="img-responsive">
                 </li>
                 <li class="active">
                     <a href="">Usuarios</a>
