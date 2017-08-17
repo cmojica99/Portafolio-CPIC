@@ -29,7 +29,7 @@
                     <a href="">Usuarios</a>
                 </li>
                 <li>
-                    <a href="welcome">Inicio</a>
+                    <a href="{{url('/')}}">Inicio</a>
                 </li>
                 <li>
                     <a href="">Programas de formación</a>
