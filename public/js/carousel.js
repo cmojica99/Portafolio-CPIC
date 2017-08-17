@@ -7,7 +7,7 @@
 			loop:true,
 			margin:10,
 			nav:true,
-			navText: ['<i class="galeriaprev glyphicon glyphicon-chevron-left"></i>','<i class="galerianext glyphicon glyphicon-chevron-right"></i>'],
+			navText: ['<i class="galeriaprev fa fa-chevron-left"></i>','<i class="galerianext fa fa-chevron-right"></i>'],
 			responsive:{
 				0:{
 					items:1

@@ -12,6 +12,10 @@ body {
   position: fixed;
   width: 260px;
 }
+
+.container {
+  width: 1054px;
+}
 #sidebar-content {
   padding: 2rem;
 }
