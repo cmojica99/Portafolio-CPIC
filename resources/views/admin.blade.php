@@ -2,6 +2,7 @@
 @section('title', 'Portafolio CPIC')
 
 @section('content')
+<h1 class="text-center">Usuarios registrados</h1>
 @foreach($users as $us)
 <div class="col-md-4">
 	<div><button class="btn btn-default edit btn-delete-img"><i class="glyphicon glyphicon-pencil"></i> </button>
