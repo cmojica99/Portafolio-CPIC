@@ -26,7 +26,9 @@
                     <img id="perfil" src="{{ asset('imgs/14052529_1749779515295896_1626367573_n.jpg')}}" alt="">
                 </li>
                 <li class="active">
+                    <a href="">Usuarios</a>
                     <a href="{{ url('/admin') }}">Usuarios</a>
+
                 </li>
                 <li>
                     <a href="{{ url('/') }}">Inicio</a>
