@@ -12,30 +12,27 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/master.css')}}">
+    <link rel="stylesheet" href="{{asset ('css/font-awesome.min.css')}}">
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{ asset('css/gallery.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/master.css')}}">
 </head>
 <body>
     @if(Auth::check())
     <div id="sidebar">
         <div id="sidebar-content">
-            <ul class="list-unstyled">
+            <ul class="list-unstyled text-center">
                 <li>
-                    <img id="perfil" src="{{ asset('imgs/sl3.png')}}" alt="">
+                    <img id="perfil" src="{{ asset('imgs/14052529_1749779515295896_1626367573_n.jpg')}}" alt="">
+                </li>
+                <li class="active">
+                    <a href="">Usuarios</a>
                 </li>
                 <li>
-                    <a href="">Opción1</a>
+                    <a href="{{ url('/') }}">Inicio</a>
                 </li>
                 <li>
-                    <a href="">Opción1</a>
-                </li>
-                <li>
-                    <a href="">Opción1</a>
-                </li>
-                <li>
-                    <a href="">Opción1</a>
+                    <a href="">Programas de formación</a>
                 </li>
             </ul>
         </div>
@@ -99,20 +96,25 @@
             </div>
         </nav>
 
-
+        
         <div id="{{ Auth::check() ? 'main-content' : ''}}">
-            @yield('content')            
+            @yield('content')   
+             @yield('footer')         
         </div>
+      
+
+            
+       
+
 
 
     </div>
 
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
-    <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
-    <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
 
+    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('js/carousel.js') }}"></script>
     <script src="{{ asset('js/gallery.js') }}"></script>
     <script>
