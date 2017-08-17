@@ -11,6 +11,7 @@
                         {{ csrf_field() }}
                         <input type="file" name="image">
 
+
                         <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
                             <label for="name" class="col-md-4 control-label">Name</label>
 
@@ -61,7 +62,7 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="password-confirm" class="col-md-4 control-label">Confirm Password</label>
+                            <label for="password-confirm" class="col-md-4 control-label">Dependencia</label>
 
                             <div class="col-md-6">
                                 <select name="dependencia" id="">
@@ -71,6 +72,7 @@
                                 </select>
                             </div>
                         </div>
+                                                <input type="file" name="image">
 
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">

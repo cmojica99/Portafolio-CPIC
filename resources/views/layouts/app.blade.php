@@ -23,15 +23,13 @@
         <div id="sidebar-content">
             <ul class="list-unstyled text-center">
                 <li>
-                    <img id="perfil" src="{{ asset('imgs/14052529_1749779515295896_1626367573_n.jpg')}}" alt="">
+                    <img id="perfil" src="{{ asset(Auth::user()->image)}}" alt="" class="img-responsive">
                 </li>
                 <li class="active">
-                    <a href="">Usuarios</a>
-                    <a href="{{ url('/admin') }}">Usuarios</a>
-
+                    <a href="{{url('/admin')}}">Usuarios</a>
                 </li>
                 <li>
-                    <a href="{{ url('/') }}">Inicio</a>
+                    <a href="{{url('/')}}">Inicio</a>
                 </li>
                 <li>
                     <a href="">Programas de formación</a>

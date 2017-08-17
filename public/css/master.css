@@ -23,24 +23,7 @@ body {
 #sidebar-content li{
   margin-bottom: 50px;
 }
-div.col-md-10{
-    padding: 46px;
-    margin-top: 108px;
-    border:1px solid red;
-}
-#usersr{
-  height: 50px;
-}
-div.tarjeta1{
-  border: 1px solid red;
-  height: 400px;
-  padding: 20px;
-}
-div.tarjeta2{
-  border: 1px solid red;
 
-
-}
 
 .elim, .edit{
   position: absolute;
@@ -54,6 +37,7 @@ div.tarjeta2{
     height: 215px;
     padding: 10px;
     border-radius: 50%;
+    object-fit: cover;
 }
 #main-content {
   margin-left: 260px;
