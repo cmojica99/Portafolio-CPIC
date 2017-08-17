@@ -2,6 +2,7 @@
 @section('title', 'Portafolio CPIC')
 
 @section('content')
+
 <h1 class="text-center">Usuarios registrados</h1>
 <hr>
 @foreach($users as $us)
@@ -15,6 +16,7 @@
 	</div>
 </div>
 @endforeach
+
 
 
 
