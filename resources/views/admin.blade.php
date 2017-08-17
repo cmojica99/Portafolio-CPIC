@@ -3,6 +3,7 @@
 
 @section('content')
 <h1 class="text-center">Usuarios registrados</h1>
+<hr>
 @foreach($users as $us)
 <div class="col-md-4">
 	<div><button class="btn btn-default edit btn-delete-img"><i class="glyphicon glyphicon-pencil"></i> </button>
