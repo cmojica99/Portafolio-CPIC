@@ -162,7 +162,7 @@ background: -webkit-linear-gradient(left, #337b99 , #000);
   float: right;
   color: #acacac;
 
-
+}
 
 .panel-group .panel , .panel-default>.panel-heading {
 background-color: transparent;
@@ -235,7 +235,7 @@ h4.panel-title{
   box-shadow: 5px 5px 5px #007881;
   margin-top: 60px; 
   
-
+}
 h5{
   color: #1885B1;
 
