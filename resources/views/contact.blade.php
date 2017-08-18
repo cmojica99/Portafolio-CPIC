@@ -2,13 +2,7 @@
 @section('title', 'Portafolio CPIC')
 
 @section('content')
-	<header class="jumbotron-pages jumbotron contact">
-    <div class="container">
-
-        <h1 class="text-center">Contáctenos</h1>
-
-    </div>
-</header>
+	
 <section class="site-contact">
     <div class="container">
 
@@ -70,37 +64,36 @@
 
             <div class="col-lg-6">
                 <div class="container-map">
-                    <div id="googleMap" style="height: 250px;"></div>        
+                   <h3>Nuestra Ubicacion</h3>
+                    <div id="map"></div>
+                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=19uZPhsJP0jfOYJ_-pZNcxCvN9yA" width="600" height="300"></iframe>
+
+                    </div>        
                 </div>
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-6">
                         <p>
-                            Teléfonos Línea Ciudadano
+                            Correo Electronico: crmorales@misena.edu.co
                         </p>
                         <p>
-                            Teléfonos Línea Empresarial
+                            Teléfono: 8748664
                         </p>
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-lg-6">
                         
                         <ul class="list-unstyled">
-                            <li>
-                                Línea Gratuita Nacional 01 8000 910 270                    
-                            </li>
+                            
                             <li style="margin-bottom: 1rem;">
-                                Línea Bogotá, D.C. (57 1) 592 55 55                    
+                               Días hábiles de lunes a viernes de 7:00 a.m. - 7:00 p.m. y sábados de 8:00 a.m. - 1:00 p.m. en jornada continua.              
                             </li>
-                            <li>
-                                Línea Gratuita Nacional 01 8000 910 682                    
-                            </li>
-                            <li>
-                                Línea Bogotá, D.C. (57 1) 404 94 94                    
-                            </li>
+                            
+                            
                         </ul>
+                       
+                        
+                    
                     </div>
-                    <p style="padding-left: 1rem;  ">
-                        Días hábiles de lunes a viernes de 7:00 a.m. - 7:00 p.m. y sábados de 8:00 a.m. - 1:00 p.m. en jornada continua.
-                    </p>
+                    
 
                 </div>
 
@@ -118,9 +111,6 @@
     
 </section>
 
-<script>
-
-</script>
 
 
 
