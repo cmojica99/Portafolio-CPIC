@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{ asset('css/gallery.css')}}">
     <link rel="stylesheet" href="{{ asset('css/master.css')}}">
+
 </head>
 <body>
     @if(Auth::check())
@@ -129,6 +130,7 @@
     
     <script src="{{ asset('js/gallery.js') }}"></script>
     <script src="{{ asset('js/site.js') }}"></script>
+
 
     <script>
         $('.container-gallery').gallery({
