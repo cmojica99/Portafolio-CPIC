@@ -3,8 +3,14 @@ html {
 }
 body {
   min-height: 100%;
+}.form-group  {
+  position: relative;
 }
-
+.form-control:focus {
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
 #sidebar {
   background: #efefef;
   height: 100%;
@@ -148,6 +154,15 @@ background: -webkit-linear-gradient(left, #337b99 , #000);
 
 }
 
+.jumbotron-pages.jumbotron.contact {
+  background: -webkit-linear-gradient(left, #337b99 , #000);
+  color: #fff;
+}
+.glyphicon.glyphicon-plus{
+  float: right;
+  color: #acacac;
+
+
 
 .panel-group .panel , .panel-default>.panel-heading {
 background-color: transparent;
@@ -179,6 +194,48 @@ h4.panel-title{
 .panel-title>a:hover{
     color: rgba(0, 91, 130, 0.8);
 }
+
+#gallery img:hover{
+  -webkit-transform:scale(1.05);
+  transform: scale(1.05);
+}
+#gallery img{
+  transition: 500ms;  
+}
+.galeria{
+  background-color: #fff; 
+  margin-top: 60px; 
+}
+
+.tex.col-md-4{
+  color:#000;
+  border: 1px solid #007881;
+  margin-left: 100px;
+  margin-top: 20px; 
+  height: 200px;
+  width: 280px;
+  padding: 20px;
+  margin-bottom: 25px;
+  transition: 500ms;
+
+}
+.tet.row{
+  background-color: #fff;
+  font-family: Tahoma;
+}
+.tex.col-md-4:hover{
+  -webkit-filter:opacity(.5);
+  filter: opacity(.5);
+  background-color: #007881;
+  box-shadow: 5px 5px 5px #000;
+  color:white;
+}
+.tex.col-md-4{
+  background-color: white;
+  box-shadow: 5px 5px 5px #007881;
+  margin-top: 60px; 
+  
+
 h5{
   color: #1885B1;
 
@@ -188,6 +245,7 @@ h5{
   right: -25px;
   color: #1885B1;
   top: 3rem;
+
 }
 .icono-igualdad{
   position: absolute;
@@ -377,11 +435,16 @@ button.btn-personalizada {
       color: #fff;
     }
 
+.label-effect{border: 0; padding: 4px 0; border-bottom: 1px solid #ccc; background-color: transparent; box-shadow: none;}
 
-/* Tarjetas */
-.card-info {
-  padding: 2rem;
-}
+
+.label-effect ~ .focus-border{position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background-color: #3399FF; transition: 0.4s;}
+.label-effect:focus ~ .focus-border,
+.has-content.label-effect ~ .focus-border{width: 100%; transition: 0.4s;}
+.label-effect ~ label{position: absolute; left: 0; width: 100%; top: 9px; color: inherit; transition: 0.3s; z-index: 2; letter-spacing: 0.5px;}
+.label-effect:focus ~ label, .has-content.label-effect ~ label{top: -16px; font-size: 1rem; color: #3399FF; transition: 0.3s; box-shadow: none;}
+
+
 
 
    
@@ -414,7 +477,6 @@ button.btn-personalizada {
 .accordion-group a{color:#231f20;}
 .accordion-group a:hover{text-decoration:none;}
 .accordion-group .accordion-inner{border:none;padding:20px;}*/
-
 
 
 

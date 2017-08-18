@@ -65,7 +65,12 @@
                     </ul>
 
                     <!-- Right Side Of Navbar -->
+
                     <ul class="nav navbar-nav navbar-right">
+                    
+                    
+                        <li><a href="{{ url('/contact')}}"> Contactanos </a></li>
+                    
                         <!-- Authentication Links -->
                         @if (Auth::guest())
                             <li><a href="{{ route('login') }}">Iniciar sesión</a></li>
@@ -115,8 +120,12 @@
 
     <script src="{{ asset('js/app.js') }}"></script>
     <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
+
     <script src="{{ asset('js/carousel.js') }}"></script>
+    
     <script src="{{ asset('js/gallery.js') }}"></script>
+    <script src="{{ asset('js/site.js') }}"></script>
+
     <script>
         $('.container-gallery').gallery({
           height: 750,
@@ -143,6 +152,7 @@
           }
 
         });
+
 
     </script>
 

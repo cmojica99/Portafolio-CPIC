@@ -23,3 +23,5 @@ Route::get('/index','ImageController@index');
 Route::get('/welcome', 'WelcomeController@index');
 
 Route::get('/admin', 'AdminController@index');
+
+Route::get('/contact', 'ContactController@index');
