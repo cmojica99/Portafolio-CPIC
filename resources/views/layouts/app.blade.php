@@ -129,33 +129,7 @@
 
 
     <script>
-        $('.container-gallery').gallery({
-          height: 750,
-          items: 10,
-          480: {
-            items: 2,
-            height: 400,
-            thmbHeight: 100
-          },
-          768: {
-            
-            items: 3,
-            height: 500,
-            thmbHeight: 120
-          },
-          600: {
-            
-            items: 4
-          },
-          992 : {
-            
-            items: 5,
-            height: 350
-          }
-
-        });
-
-
+        
     </script>
 
 </body>
