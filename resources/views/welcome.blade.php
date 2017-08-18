@@ -6,7 +6,7 @@
 <!-- Slider -->
 <section class="slider">
 	<div class="container">
-		<div class="row">
+		<div class="sli row">
 			<div class="col-md-10 col-md-offset-1">
 				<div class="owl-carousel owl-theme">
 					<div class="item"><a href="#"><img src="{{ asset('imgs/sl3.png')}}" alt=""></a></div>
@@ -80,7 +80,8 @@
 		</div>
 		<div class="row">
 			<div class="col-md-5">
-				<div class="card-info">
+				<div class="card-info text-right">
+				<span class="icono-competencia fa fa-book fa-3x"></span>
 					<h5><strong>COMPETENCIAS BÁSICAS</strong></h5>
 					<p>
 						Procura la construcción de estrategias de autogestión del aprendizaje para el incremento del logro educativo.​
@@ -89,6 +90,7 @@
 			</div>
 			<div class= "col-md-5 col-md-offset-2">
 				<div class="card-info">
+				<span class="icono-feliz fa fa-smile-o fa-3x"></span>
 					<h5><strong>HABILIDADES SOCIOEMOCIONALES</strong><br></h5>
 					<p>
 						Fortalece competencias ciudadanas y habilidades sociales de trabajo en equipo con base en valores de solidaridad, servicio, respeto y autonomía, entre otros.​
@@ -109,7 +111,8 @@
 		</div>
 		<div class="row">
 			<div class="col-md-5">
-				<div class="card-info">
+				<div class="card-info text-right">
+				<span class="icono-depor fa fa-futbol-o fa-3x"></span>
 					<h5><strong>DEPORTE</strong><br></h5>
 					<p>
 						Fomenta la práctica del deporte y la actividad física para el desarrollo de hábitos de vida saludables, el adecuado uso del tiempo libre y el desarrollo de habilidades socioemocionales, apoyando al proceso de formación integral. ​.
@@ -129,6 +132,7 @@
 			
 			<div class="col-md-5 col-md-offset-3">
 				<div class="card-info">
+				<span class="icono-respon fa fa-users fa-3x"></span>
 					<h5><strong>RESPONSABILIDAD SOCIAL</strong><br></h5>
 					<p>
 						Fomenta habilidades de liderazgo social que permitan desarrollar el crecimiento personal, la apropiación institucional de la entidad y la solidaridad con las comunidades.
@@ -139,6 +143,7 @@
 		<div class="row">
 			<div class="col-md-5 col-md-offset-6">
 				<div class="card-info">
+				<span class="icono-convive fa fa-sign-language fa-3x"></span>
 					<h5><strong>CONVIVENCIA</strong><br></h5>
 					<p>
 						Fomenta ambientes de convivencia y participación social a través de espacios de reflexión como actores activos en la construcción de una paz duradera y estable, enfocada en la formación profesional integral.

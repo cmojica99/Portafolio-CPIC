@@ -19,6 +19,14 @@ body {
   width: 260px;
 
 }
+.sli{
+  padding-top: 100px;
+}
+section.acordeon{
+    border: 1px solid red;
+    margin-top: 65px;
+}
+
 
 .container {
   width: 1054px;
@@ -54,7 +62,7 @@ nav.navbar{
 	background-color: #fff;
   margin: 0px auto !important; 
   border:1px solid red;
-  height: 150px; 
+  height: 100px; 
 
 
 }
@@ -100,12 +108,7 @@ div.da{
   color: black;
   
 }
-.submenu {
-  display: none;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.38);
-  margin-top: 10px;
-}
+
 .item1:hover{
   border-bottom: 1px solid black;
 }
@@ -158,11 +161,7 @@ background: -webkit-linear-gradient(left, #337b99 , #000);
   background: -webkit-linear-gradient(left, #337b99 , #000);
   color: #fff;
 }
-.glyphicon.glyphicon-plus{
-  float: right;
-  color: #acacac;
 
-}
 
 .panel-group .panel , .panel-default>.panel-heading {
 background-color: transparent;
@@ -195,17 +194,6 @@ h4.panel-title{
     color: rgba(0, 91, 130, 0.8);
 }
 
-#gallery img:hover{
-  -webkit-transform:scale(1.05);
-  transform: scale(1.05);
-}
-#gallery img{
-  transition: 500ms;  
-}
-.galeria{
-  background-color: #fff; 
-  margin-top: 60px; 
-}
 
 .tex.col-md-4{
   color:#000;
@@ -240,35 +228,60 @@ h5{
   color: #1885B1;
 
 }
+.card-info{
+  margin-top: 50px;
+}
 .icono-salud{
   position: absolute;
-  right: -25px;
+  right: -35px;
   color: #1885B1;
-  top: 3rem;
+  
 
 }
 .icono-igualdad{
   position: absolute;
-  left:-25px;
+  left:-35px;
   color: #1885B1;
-  top: 3rem;
 
+}
+.icono-competencia{
+   position: absolute;
+  right: -35px;
+  color: #1885B1;
+ 
 
+}
+.icono-feliz{
+   position: absolute;
+  left:-35px;
+  color: #1885B1; 
+}
+.icono-depor{
+  position: absolute;
+  right: -35px;
+  color: #1885B1; 
+}
+.icono-convive{
+  position: absolute;
+  left:-35px;
+  color: #1885B1; 
+}
+.icono-respon{
+   position: absolute;
+  left:-35px;
+  color: #1885B1;
 }
 .bienestar{
   position: relative;
+  border: 1px solid red;
 }
-/*.bienestar:before{
-  background: url('../imgs/logob2.fw.png') no-repeat;
-  content: '';
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  width: 500px;
-  height: 500px;
-  right: 0px;
+
+.tarjeta2{
+  border: 1px solid black;
+  padding: 20px;
+
+
 }
-*/
 button.btn-personalizada {
   width: 100%;
   border:1px solid red;
