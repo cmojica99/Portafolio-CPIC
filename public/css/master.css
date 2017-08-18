@@ -163,6 +163,9 @@ background: -webkit-linear-gradient(left, #337b99 , #000);
 }
 
 
+
+
+
 .panel-group .panel , .panel-default>.panel-heading {
 background-color: transparent;
   /*Aqui es donde se edita esa opacidad */
@@ -222,6 +225,7 @@ h4.panel-title{
   background-color: white;
   box-shadow: 5px 5px 5px #007881;
   margin-top: 60px; 
+}
   
 }
 h5{
@@ -441,8 +445,7 @@ button.btn-personalizada {
       margin-top: 20px;
     }
     .social_networks{
-      margin-right: 10px;
- 
+      margin-right: 10px; 
     }
     .social_web{
       color: #fff;
