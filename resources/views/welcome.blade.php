@@ -195,9 +195,7 @@
 						<a href="" data-toggle="tooltip" title="Google +" class="social_web "><i class="fa fa-google-plus fa-3x social_networks"></i></a>
 					</nav>  
 				</div>
-				<a href="javascript:void(0)" class="back-to-top animated">
-					<i class="fa fa-angle-up"></i>
-				</a>
+				
 
 				<p class="">&copy; Todos los derechos reservados {{date('Y')}}  </p>        
 			</div>
