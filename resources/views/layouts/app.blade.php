@@ -70,11 +70,11 @@
                     <ul class="nav navbar-nav navbar-right">
                     
                     
-                        <li><a href="{{ url('/contact')}}"> Contactanos </a></li>
+                        <li><a class="pop" href="{{ url('/contact')}}"> Contactanos </a></li>
                     
                         <!-- Authentication Links -->
                         @if (Auth::guest())
-                            <li><a href="{{ route('login') }}">Iniciar sesión</a></li>
+                            <li><a class="pop" href="{{ route('login') }}">Iniciar sesión</a></li>
                             
                         @else
                             <li class="dropdown">

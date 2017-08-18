@@ -286,6 +286,17 @@ h5{
 
 
 }
+nav.navbar{
+  background-color: #337b99;
+  margin: 0px auto !important; 
+ 
+  height: 100px; 
+
+
+}
+a.pop, .navbar-brand{
+  color: #fff !important;
+}
 button.btn-personalizada {
   width: 100%;
   border:1px solid red;
