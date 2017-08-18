@@ -12,6 +12,5 @@ jQuery(document).ready(function($) {
         })
 
 
-        $.("#enviar_cont")
     });
 
