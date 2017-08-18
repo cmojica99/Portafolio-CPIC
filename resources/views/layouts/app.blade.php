@@ -22,21 +22,18 @@
     @if(Auth::check())
     <div id="sidebar">
         <div id="sidebar-content">
-            <ul class="list-unstyled">
+            <ul class="list-unstyled text-center">
                 <li>
-                    <img id="perfil" src="{{ asset('imgs/sl3.png')}}" alt="">
+                    <img id="perfil" src="{{ asset(Auth::user()->image)}}" alt="" class="img-responsive">
+                </li>
+                <li class="active">
+                    <a href="{{url('/admin')}}">Usuarios</a>
                 </li>
                 <li>
-                    <a href="">Opción1</a>
+                    <a href="{{url('/')}}">Inicio</a>
                 </li>
                 <li>
-                    <a href="">Opción1</a>
-                </li>
-                <li>
-                    <a href="">Opción1</a>
-                </li>
-                <li>
-                    <a href="">Opción1</a>
+                    <a href="">Programas de formación</a>
                 </li>
             </ul>
         </div>
@@ -124,7 +121,6 @@
 
     <script src="{{ asset('js/app.js') }}"></script>
     <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
-
 
     <script src="{{ asset('js/carousel.js') }}"></script>
     
