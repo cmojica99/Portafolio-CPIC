@@ -22,48 +22,38 @@
                 </div>
 
                 <p>
-                    Note that if you turn on the Yii debugger, you should be able
-                    to view the mail message on the mail panel of the debugger.
-                    
-                        Because the application is in development mode, the email is not sent but saved as
-                        a file under <code>
-                </p>
-
-                
-
-                <p>
                     Si tiene preguntas o consultas, rellene el siguiente formulario para ponerse en contácto con nosotros.
                     Gracias.
                 </p>
 
                 <form action="" id="contact-form">
                 <div class="form-group">
-                	<label  class="label-effect" for="">Nombre</label>
-                	<span class="focus-border"></span>
-                	<input type="text" name="nombre" class="form-control label-effect" placeholder="Nombre">
+                    <input id="contactfrm_name" type="text" name="nombre" class="form-control label-effect" >
+                    <label for="contactfrm_name" class="control-label"> Nombre </label>
+                    <span class="focus-border"></span>
                 	
                 </div>
-                <div>
-                	<label class="label-effect" for="">Correo Electronico</label>
-                	<span class="focus-border"></span>
-                	<input type="email" name="email" class="form-control label-effect" placeholder="Correo Electronico">
+               <div class="form-group">
+                    <input id="contactfrm_correo" type="email" name="email" class="form-control label-effect" >
+                    <label for="contactfrm_correo" class="control-label"> Correo Electronico </label>
+                    <span class="focus-border"></span>
+                    
+                </div>
+                <div class="form-group">
+                    <label  class="" for="">Asunto</label>
+                    <select id="pqrs" class="form-control label-effect">
+                        <option value="">Seleccione Una Opcion</option>
+                        <option value="1">Consulta</option>
+                        <option value="2">Queja</option>
+                        <option value="3">Sugerencia</option>
+                    </select>
+                    <span class="focus-border"></span>
                 	
                 </div>
                 <div class="form-group">
-					<label  class="label-effect" for="">Asunto</label>
-					<span class="focus-border"></span>
-                	<select id="pqrs" class="form-control label-effect">
-                		<option value="">Seleccione Una Opcion</option>
-                		<option value="1">Consulta</option>
-                		<option value="2">Queja</option>
-                		<option value="3">Sugerencia</option>
-                	</select>
-                	
-                </div>
-                <div class="form-group">
-                	<label class="label-effect">Mensaje</label>
-                	<span class="focus-border"></span>
-                	<textarea name="" class="form-control label-effect" id="" cols="30" rows="10" placeholder="Escribenos Tu Inconveniente"></textarea>
+                	<textarea name="" class="form-control label-effect" id="conct_text" cols="30" rows="3" ></textarea>
+                    <label class="control-label" for="conct_text">Mensaje</label>
+                    <span class="focus-border"></span>
                 	
                 </div>
 
@@ -71,7 +61,7 @@
 
 
 
-                	<button class="btn btn-success" type="submit">Enviar</button> 
+                	<button id="enviar_cont" class="btn btn-success" type="submit">Enviar</button> 
                 </form>
 
                     

@@ -3,8 +3,14 @@ html {
 }
 body {
   min-height: 100%;
+}.form-group  {
+  position: relative;
 }
-
+.form-control:focus {
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
 #sidebar {
   background: #cfc;
   height: 100%;
@@ -150,6 +156,10 @@ footer{
 background: -webkit-linear-gradient(left, #337b99 , #000);
   color: #fff;
 
+}
+.jumbotron-pages.jumbotron.contact {
+  background: -webkit-linear-gradient(left, #337b99 , #000);
+  color: #fff;
 }
 .glyphicon.glyphicon-plus{
   float: right;
@@ -398,7 +408,13 @@ button.btn-personalizada {
       color: #fff;
     }
 
+.label-effect{border: 0; padding: 4px 0; border-bottom: 1px solid #ccc; background-color: transparent; box-shadow: none;}
 
+.label-effect ~ .focus-border{position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background-color: #3399FF; transition: 0.4s;}
+.label-effect:focus ~ .focus-border,
+.has-content.label-effect ~ .focus-border{width: 100%; transition: 0.4s;}
+.label-effect ~ label{position: absolute; left: 0; width: 100%; top: 9px; color: inherit; transition: 0.3s; z-index: 2; letter-spacing: 0.5px;}
+.label-effect:focus ~ label, .has-content.label-effect ~ label{top: -16px; font-size: 1rem; color: #3399FF; transition: 0.3s; box-shadow: none;}
 
 
 
@@ -433,10 +449,4 @@ button.btn-personalizada {
 .accordion-group a:hover{text-decoration:none;}
 .accordion-group .accordion-inner{border:none;padding:20px;}*/
 
-.label-effect{border: 0; padding: 4px 0; border-bottom: 1px solid #ccc; background-color: transparent;}
 
-.label-effect ~ .focus-border{position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background-color: #3399FF; transition: 0.4s;}
-.label-effect:focus ~ .focus-border,
-.has-content.label-effect ~ .focus-border{width: 100%; transition: 0.4s;}
-.label-effect ~ label{position: absolute; left: 0; width: 100%; top: 9px; color: inherit; transition: 0.3s; z-index: 2; letter-spacing: 0.5px;}
-.label-effect:focus ~ label, .has-content.label-effect ~ label{top: -16px; font-size: 1rem; color: #3399FF; transition: 0.3s;}

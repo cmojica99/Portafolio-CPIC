@@ -1,12 +1,17 @@
+jQuery(document).ready(function($) {
+	
 
-$(window).load(function($){
-        $(".form-group .label-effect").val("");
+        $(".form-group input").val("");
         
-        $(".form-group .label-effect").focusout(function(){
+        $(".form-group input").focusout(function(){
             if($(this).val() != ""){
                 $(this).addClass("has-content");
             }else{
                 $(this).removeClass("has-content");
             }
         })
+
+
+        $.("#enviar_cont")
     });
+
