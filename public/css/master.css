@@ -26,8 +26,6 @@ body {
   padding-top: 100px;
 }
 section.acordeon{
-    border: 1px solid red;
-    margin-top: 120px;
     margin-bottom: 120px;
 }
 .DropD{
@@ -51,8 +49,6 @@ section.acordeon{
 #sidebar-content li{
   margin-bottom: 50px;
 }
-
-
 .elim, .edit{
   position: absolute;
   background-color:  rgba(255, 255, 255, 0.29);
@@ -72,9 +68,6 @@ section.acordeon{
   padding: 2rem;
 }
 
-
-
-}
 div.da{
 	display: inline-block;
   margin: 0px auto !important; 
@@ -141,11 +134,10 @@ li.fecha_mod{
 .fecha_ini{
   margin-top: 145px;
 }
-
-
 .ali{
   font-family: "Tahoma";
   color:#999;
+  margin-bottom: 60px;
 }
 ul.nav.nav-tabs.row{
   background-color: rgba(192, 192, 192, 0.2);
@@ -294,17 +286,27 @@ h5{
 }
 .bienestar{
   position: relative;
-  border: 1px solid red;
+  background: url('../imgs/learn_1.jpg') no-repeat center right;
+  background-attachment: fixed;
+  background-position: 31rem -4rem;
+}
+.bienestar::before {
+  position: absolute;
+  content: '';
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, rgba(222, 255, 33, 0.1) 0%, rgba(255, 255, 255, 0.4) 5%, #ffffff 40%);
 }
 
+.card-info {
+  padding: 2rem 0;
+}
 .tarjeta2{
   border: 1px solid black;
   padding: 20px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+  color:black;
 
->>>>>>> 393e6da4bf562dd0f2a0df3cbb972c2ae42b13e6
 }
 nav.navbar-default.navbar-static-top{
 
@@ -322,23 +324,15 @@ nav.navbar-default.navbar-static-top{
     width: 100%;
     height: 100%;
     background-size: cover;
-<<<<<<< HEAD
-=======
-=======
 
->>>>>>> 393e6da4bf562dd0f2a0df3cbb972c2ae42b13e6
   transition: 0.5s all;
 }
 .tarjeta2:hover{
   color: #fff;
-  background-color: rgba(21, 97, 128, 1);
+  background-color: #0C6C6B;
   transform: scale(1.2);
   border: 1px solid white;
-<<<<<<< HEAD
->>>>>>> d68c58069776e5afabfcc799e2ba7a0507a8fd06
-=======
 
->>>>>>> 393e6da4bf562dd0f2a0df3cbb972c2ae42b13e6
 }
 button.btn-personalizada {
   width: 100%;
