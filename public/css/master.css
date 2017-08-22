@@ -300,7 +300,11 @@ h5{
 .tarjeta2{
   border: 1px solid black;
   padding: 20px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
 
+>>>>>>> 393e6da4bf562dd0f2a0df3cbb972c2ae42b13e6
 }
 nav.navbar-default.navbar-static-top{
 
@@ -318,7 +322,11 @@ nav.navbar-default.navbar-static-top{
     width: 100%;
     height: 100%;
     background-size: cover;
+<<<<<<< HEAD
+=======
+=======
 
+>>>>>>> 393e6da4bf562dd0f2a0df3cbb972c2ae42b13e6
   transition: 0.5s all;
 }
 .tarjeta2:hover{
@@ -326,7 +334,11 @@ nav.navbar-default.navbar-static-top{
   background-color: rgba(21, 97, 128, 1);
   transform: scale(1.2);
   border: 1px solid white;
+<<<<<<< HEAD
+>>>>>>> d68c58069776e5afabfcc799e2ba7a0507a8fd06
+=======
 
+>>>>>>> 393e6da4bf562dd0f2a0df3cbb972c2ae42b13e6
 }
 button.btn-personalizada {
   width: 100%;
