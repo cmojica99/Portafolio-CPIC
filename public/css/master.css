@@ -24,9 +24,9 @@ body {
 }
 section.acordeon{
     border: 1px solid red;
-    margin-top: 65px;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
-
 
 .container {
   width: 1054px;
@@ -283,8 +283,13 @@ h5{
 .tarjeta2{
   border: 1px solid black;
   padding: 20px;
-
-
+  transition: 0.5s all;
+}
+.tarjeta2:hover{
+  color: #fff;
+  background-color: rgba(21, 97, 128, 1);
+  transform: scale(1.2);
+  border: 1px solid white;
 }
 button.btn-personalizada {
   width: 100%;
