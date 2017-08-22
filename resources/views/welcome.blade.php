@@ -161,30 +161,27 @@
 			<div class="col-md-7">
 				<h4 > INFORMACIÓN </h4>
 				<ul class="list-unstyled">
-					<li>Centro de Procesos Industriales</li>
-					<li> Regional Caldas</li>
-					<li>Servicio Nacional de Aprendizaje SENA</li>
-					<li>Ministerio de la Protección Social</li>
+					<li class="awesome_icon"><i class="fa fa-home icon_fot"></i>Centro de Procesos Industriales -  Regional Caldas</li>
+					<li class="awesome_icon"><i class="fa fa-flag icon_fot" ></i>Servicio Nacional de Aprendizaje SENA</li>
+					<li class="awesome_icon"><i class="fa fa-flag icon_fot" ></i>Ministerio de la Protección Social</li>
 
-					<li>
-						<address>Dirección: Kilómetro 10 vía al Magdalena </address>
+					<li class="awesome_icon">
+						<li><i class="fa fa-map-marker icon_fot" aria-hidden="true"></i>Dirección: Kilómetro 10 vía al Magdalena </li>
 					</li>
-					<li>
-						<span>Ubicacion: </span> Vista Panorámica Bloques principales  
+					<li class="awesome_icon">
+						<li><i class="fa fa-map-marker icon_fot" aria-hidden="true"></i>Ubicacion: Vista Panorámica Bloques principales  </li>
 					</li>
-					<li>
-						<a href="mailto:crmorales@misena.edu.co">Correo Electrónico: crmorales@misena.edu.co</a>
+					<li class="awesome_icon">
+						<i class="fa fa-envelope icon_fot" aria-hidden="true"></i><a href="mailto:crmorales@misena.edu.co">Correo Electrónico: crmorales@misena.edu.co</a>
 					</li>
-					<li>
-						<a href="tel://5925555">Telefono : 8748664</a>
+					<li class="awesome_icon">
+						<li><i class="fa fa-phone icon_fot" aria-hidden="true"></i>Telefono : 8748664</li>
 					</li>
-					<li>
-						<span>Horario De Atencion: Lunes a viernes de 8:00 a 5:00 pm ( Jornada Continua )</span>
+					<li class="awesome_icon">
+						<li><i class="fa fa-slack icon_fot" aria-hidden="true"></i>Horario De Atencion: Lunes a viernes de 8:00 a 5:00 pm ( Jornada Continua )</li>
 					</li>
 
-
-
-				</ul>    
+	</ul>    
 				<div class="container">
 					<nav class="footer-social-networks">
 						<a href="" data-toggle="tooltip" title="Facebook" class=" social_web"><i class="fa fa-facebook fa-3x social_networks"></i></a>
