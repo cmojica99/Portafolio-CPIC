@@ -26,7 +26,6 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{asset ('css/font-awesome.min.css')}}">
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/gallery.css')}}">
     <link rel="stylesheet" href="{{ asset('css/master.css')}}">
 
     <link rel="stylesheet" href="{{ asset('css/animate.css')}}">
@@ -98,42 +97,10 @@
     <script src="{{ asset('js/site.js') }}"></script>
 
 
-<<<<<<< HEAD
-        <script>    
 
-
-
-        // $('.container-gallery').gallery({
-        //   height: 750,
-        //   items: 10,
-        //   480: {
-        //     items: 2,
-        //     height: 400,
-        //     thmbHeight: 100
-        //   },
-        //   768: {
-            
-        //     items: 3,
-        //     height: 500,
-        //     thmbHeight: 120
-        //   },
-        //   600: {
-            
-        //     items: 4
-        //   },
-        //   992 : {
-            
-        //     items: 5,
-        //     height: 350
-        //   }
-
-        // });
-    
-=======
-    <script>
         
     </script>
->>>>>>> b5f85542ac3457e0cdd1cf3afc319e83f49111fd
+
 
         </script>
 </body>
