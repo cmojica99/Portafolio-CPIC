@@ -161,24 +161,24 @@
 			<div class="col-md-7">
 				<h4 > INFORMACIÓN </h4>
 				<ul class="list-unstyled">
-					<li class="awesome_icon"><i class="fa fa-home icon_fot"></i>Centro de Procesos Industriales -  Regional Caldas</li>
-					<li class="awesome_icon"><i class="fa fa-flag icon_fot" ></i>Servicio Nacional de Aprendizaje SENA</li>
-					<li class="awesome_icon"><i class="fa fa-flag icon_fot" ></i>Ministerio de la Protección Social</li>
+					<li class="awesome_icon"><i class="fa fa-fw fa-home icon_fot"></i>Centro de Procesos Industriales -  Regional Caldas</li>
+					<li class="awesome_icon"><i class="fa fa-fw fa-flag icon_fot" ></i>Servicio Nacional de Aprendizaje SENA</li>
+					<li class="awesome_icon"><i class="fa fa-fw fa-flag icon_fot" ></i>Ministerio de la Protección Social</li>
 
 					<li class="awesome_icon">
-						<li><i class="fa fa-map-marker icon_fot" aria-hidden="true"></i>Dirección: Kilómetro 10 vía al Magdalena </li>
+						<li><i class="fa fa-fw fa-map-marker icon_fot" aria-hidden="true"></i>Dirección: Kilómetro 10 vía al Magdalena </li>
 					</li>
 					<li class="awesome_icon">
-						<li><i class="fa fa-map-marker icon_fot" aria-hidden="true"></i>Ubicacion: Vista Panorámica Bloques principales  </li>
+						<li><i class="fa fa-fw fa-map-marker icon_fot" aria-hidden="true"></i>Ubicacion: Vista Panorámica Bloques principales  </li>
 					</li>
 					<li class="awesome_icon">
-						<i class="fa fa-envelope icon_fot" aria-hidden="true"></i><a href="mailto:crmorales@misena.edu.co">Correo Electrónico: crmorales@misena.edu.co</a>
+						<i class="fa fa-fw fa-envelope icon_fot" aria-hidden="true"></i><a href="mailto:crmorales@misena.edu.co">Correo Electrónico: crmorales@misena.edu.co</a>
 					</li>
 					<li class="awesome_icon">
-						<li><i class="fa fa-phone icon_fot" aria-hidden="true"></i>Telefono : 8748664</li>
+						<li><i class="fa fa-fw fa-phone icon_fot" aria-hidden="true"></i>Telefono : 8748664</li>
 					</li>
 					<li class="awesome_icon">
-						<li><i class="fa fa-slack icon_fot" aria-hidden="true"></i>Horario De Atencion: Lunes a viernes de 8:00 a 5:00 pm ( Jornada Continua )</li>
+						<li><i class="fa fa-fw fa-slack icon_fot" aria-hidden="true"></i>Horario De Atencion: Lunes a viernes de 8:00 a 5:00 pm ( Jornada Continua )</li>
 					</li>
 
 	</ul>    
