@@ -5,16 +5,9 @@
 @section('content')
 <!-- Slider -->
 <section class="slider">
-	<div class="container">
-		<div class="sli row">
-			<div class="col-md-10 col-md-offset-1">
-				<div class="owl-carousel owl-theme">
-					<div class="item"><a href="#"><img src="{{ asset('imgs/sl3.png')}}" alt=""></a></div>
-					<div class="item"><a href="#"><img src="{{ asset('imgs/sl1.png')}}" alt=""></a></div>
-					<div class="item"><a href="#"><img src="{{ asset('imgs/sl2.png')}}" alt=""></a></div>
-				</div> 
-			</div>				
-		</div>
+	<div class="container background_png">
+
+		
 	</div>
 </section>
 <!--Acordion-->
