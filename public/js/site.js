@@ -12,5 +12,9 @@ jQuery(document).ready(function($) {
         })
 
 
+<<<<<<< HEAD
+=======
+        
+>>>>>>> b5f85542ac3457e0cdd1cf3afc319e83f49111fd
     });
 

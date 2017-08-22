@@ -19,9 +19,29 @@ body {
   width: 260px;
 
 }
+.slider{
+  height: 100vh;
+}
+.sli{
+  padding-top: 100px;
+}
+section.acordeon{
+    margin-bottom: 120px;
+}
+.DropD{
+  display: none;
+}
 
 .container {
   width: 1054px;
+}
+.container.fluid{
+  height: inherit;
+      top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
 }
 #sidebar-content {
   padding: 2rem;
@@ -29,8 +49,6 @@ body {
 #sidebar-content li{
   margin-bottom: 50px;
 }
-
-
 .elim, .edit{
   position: absolute;
   background-color:  rgba(255, 255, 255, 0.29);
@@ -50,14 +68,6 @@ body {
   padding: 2rem;
 }
 
-nav.navbar{
-	background-color: #fff;
-  margin: 0px auto !important; 
-  border:1px solid red;
-  height: 150px; 
-
-
-}
 div.da{
 	display: inline-block;
   margin: 0px auto !important; 
@@ -100,12 +110,7 @@ div.da{
   color: black;
   
 }
-.submenu {
-  display: none;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.38);
-  margin-top: 10px;
-}
+
 .item1:hover{
   border-bottom: 1px solid black;
 }
@@ -129,11 +134,10 @@ li.fecha_mod{
 .fecha_ini{
   margin-top: 145px;
 }
-
-
 .ali{
   font-family: "Tahoma";
   color:#999;
+  margin-bottom: 60px;
 }
 ul.nav.nav-tabs.row{
   background-color: rgba(192, 192, 192, 0.2);
@@ -158,11 +162,10 @@ background: -webkit-linear-gradient(left, #337b99 , #000);
   background: -webkit-linear-gradient(left, #337b99 , #000);
   color: #fff;
 }
-.glyphicon.glyphicon-plus{
-  float: right;
-  color: #acacac;
 
-}
+
+
+
 
 .panel-group .panel , .panel-default>.panel-heading {
 background-color: transparent;
@@ -195,17 +198,6 @@ h4.panel-title{
     color: rgba(0, 91, 130, 0.8);
 }
 
-#gallery img:hover{
-  -webkit-transform:scale(1.05);
-  transform: scale(1.05);
-}
-#gallery img{
-  transition: 500ms;  
-}
-.galeria{
-  background-color: #fff; 
-  margin-top: 60px; 
-}
 
 .tex.col-md-4{
   color:#000;
@@ -234,41 +226,114 @@ h4.panel-title{
   background-color: white;
   box-shadow: 5px 5px 5px #007881;
   margin-top: 60px; 
-  
 }
+ a.navbar-brand, .pop {
+  color: #fff !important;
+      line-height: 30px !important;
+      text-align: center;
+
+ } 
+ a.navbar-brand:hover, .pop:hover {
+   color: #EFDD8D !important;
+    transition: color 0.4s ease 0s;
+ }
 h5{
   color: #1885B1;
 
 }
+.card-info{
+  margin-top: 50px;
+}
 .icono-salud{
   position: absolute;
-  right: -25px;
+  right: -35px;
   color: #1885B1;
-  top: 3rem;
+  
 
 }
 .icono-igualdad{
   position: absolute;
-  left:-25px;
+  left:-35px;
   color: #1885B1;
-  top: 3rem;
 
+}
+.icono-competencia{
+   position: absolute;
+  right: -35px;
+  color: #1885B1;
+ 
 
+}
+.icono-feliz{
+   position: absolute;
+  left:-35px;
+  color: #1885B1; 
+}
+.icono-depor{
+  position: absolute;
+  right: -35px;
+  color: #1885B1; 
+}
+.icono-convive{
+  position: absolute;
+  left:-35px;
+  color: #1885B1; 
+}
+.icono-respon{
+   position: absolute;
+  left:-35px;
+  color: #1885B1;
 }
 .bienestar{
   position: relative;
+  background: url('../imgs/learn_1.jpg') no-repeat center right;
+  background-attachment: fixed;
+  background-position: 31rem -4rem;
 }
-/*.bienestar:before{
-  background: url('../imgs/logob2.fw.png') no-repeat;
-  content: '';
+.bienestar::before {
   position: absolute;
-  right: 0px;
-  top: 0px;
-  width: 500px;
-  height: 500px;
-  right: 0px;
+  content: '';
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, rgba(222, 255, 33, 0.1) 0%, rgba(255, 255, 255, 0.4) 5%, #ffffff 40%);
 }
-*/
+
+.card-info {
+  padding: 2rem 0;
+}
+.tarjeta2{
+  border: 1px solid black;
+  padding: 20px;
+  color:black;
+
+}
+nav.navbar-default.navbar-static-top{
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 7rem;
+    background: rgba(0,0,0, 0.65);
+    border-bottom: 0px solid rgba(0, 0, 0, 0.5);
+    height: 81px;
+}
+.background_png{
+  background: url(../imgs/bgc.png)no-repeat center center;
+
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+  transition: 0.5s all;
+}
+.tarjeta2:hover{
+  color: #fff;
+  background-color: #0C6C6B;
+  transform: scale(1.2);
+  border: 1px solid white;
+
+}
 button.btn-personalizada {
   width: 100%;
   border:1px solid red;
@@ -428,8 +493,7 @@ button.btn-personalizada {
       margin-top: 20px;
     }
     .social_networks{
-      margin-right: 10px;
- 
+      margin-right: 10px; 
     }
     .social_web{
       color: #fff;
