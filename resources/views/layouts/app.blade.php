@@ -16,7 +16,10 @@
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{ asset('css/gallery.css')}}">
     <link rel="stylesheet" href="{{ asset('css/master.css')}}">
+<<<<<<< HEAD
     <link rel="stylesheet" href="{{ asset('css/master.css')}}">
+=======
+>>>>>>> d68c58069776e5afabfcc799e2ba7a0507a8fd06
     <link rel="stylesheet" href="{{ asset('css/animate.css')}}">
 
 </head>

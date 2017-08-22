@@ -49,7 +49,7 @@
 <!-- Bienestar-->
 <section class="bienestar">
 	<div class="container">
-		<div class="row">
+		<div class="row animated bounceIn">
 			<div class= "col-md-5">
 				<div class="card-info text-right">
 				<span class="icono-salud fa fa-heartbeat fa-3x"></span>
@@ -60,7 +60,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row animated bounceIn">
 			<div class="col-md-5 col-md-offset-3">
 				<div class="card-info">
 				<span class="icono-igualdad fa fa-thumbs-o-up fa-3x" ></span>
@@ -71,7 +71,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row animated bounceIn">
 			<div class="col-md-5">
 				<div class="card-info text-right">
 				<span class="icono-competencia fa fa-book fa-3x"></span>
@@ -91,7 +91,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row animated bounceIn">
 			<div class="col-md-5 col-md-offset-3">
 				<div class="card-info">
 
@@ -102,7 +102,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row animated bounceIn">
 			<div class="col-md-5">
 				<div class="card-info text-right">
 				<span class="icono-depor fa fa-futbol-o fa-3x"></span>
@@ -114,14 +114,14 @@
 			</div>
 			<div class= "tex col-md-5 col-md-offset-2">
 				<div class="card-info">
-					<h5><strong>LIDEREAZGO</strong><br></h5>
+					<h5><strong>LIDERAZGO</strong><br></h5>
 					<p>
 						Fomenta la formación de líderes integrales con sentido de pertenencia hacia la institución que fortalezcan los espacios de representación y participación, como elementos para la construcción de ciudadanos socialmente responsables
 					</p>
 				</div>
 			</div>
 		</div>
-		<div class=" row">
+		<div class=" row animated bounceIn">
 			
 			<div class="col-md-5 col-md-offset-3">
 				<div class="card-info">
@@ -133,7 +133,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row animated bounceIn">
 			<div class="col-md-5 col-md-offset-6">
 				<div class="card-info">
 				<span class="icono-convive fa fa-sign-language fa-3x"></span>
