@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{ asset('css/gallery.css')}}">
     <link rel="stylesheet" href="{{ asset('css/master.css')}}">
+
+    <link rel="stylesheet" href="{{ asset('css/master.css')}}">
+
+
     <link rel="stylesheet" href="{{ asset('css/animate.css')}}">
 
 </head>
@@ -42,7 +46,7 @@
     @endif
     <div id="app">
         <nav class="navbar navbar-default navbar-static-top">
-            <div class="container">
+            <div class="container fluid">
                 <div class="navbar-header">
 
                     <!-- Collapsed Hamburger -->
@@ -69,13 +73,17 @@
                     <!-- Right Side Of Navbar -->
 
                     <ul class="nav navbar-nav navbar-right">
-                    
-                    
-                        <li><a href="{{ url('/contact')}}"> Contactanos </a></li>
+                        
+                        <li><a class="pop" href="{{ url('/contact')}}"> PROGRAMAS DE FORMACION </a></li>
+
+                          
+                        
+
+                        <li><a class="pop" href="{{ url('/contact')}}"> CONTACTANOS </a></li>
                     
                         <!-- Authentication Links -->
                         @if (Auth::guest())
-                            <li><a href="{{ route('login') }}">Iniciar sesión</a></li>
+                            <li><a class="pop" href="{{ route('login') }}">INICIAR SESION</a></li>
                             
                         @else
                             <li class="dropdown">
