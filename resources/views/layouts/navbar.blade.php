@@ -12,9 +12,9 @@
                     </button>
 
                     @if(Auth::check())
-                        <a href="{{ url('welcome') }}" class="navbar-brand" href="#">PORTAFOLIO</a>
+                        <a href="{{ url('welcome') }}" class="navbar-brand" href="#"><img src="{{asset('imgs/bookl.png')}}" style="height: 50px;" alt=""></a>
                       @else
-                        <a href="{{ url('/') }}" class="navbar-brand" href="#">PORTAFOLIO</a>
+                        <a href="{{ url('/') }}" class="navbar-brand" href="#"><img src="{{asset('imgs/bookl.png')}}" style="height: 50px;" alt=""></a>
                       @endif
                 </div>
 
