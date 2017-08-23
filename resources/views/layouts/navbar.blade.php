@@ -29,6 +29,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         
                         <li><a class="pop" href="{{ url('/contact')}}"> PROGRAMAS DE FORMACION </a></li>
+                            
 
                           
                         

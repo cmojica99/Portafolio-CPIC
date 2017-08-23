@@ -12,7 +12,7 @@
                 
 
                 <div class="alert alert-success">
-                    Thank you for contacting us. We will respond to you as soon as possible.
+                    Gracias Por Contactarte. Nosotros Te Responderemos Lo mas Pronto Posible.
                 </div>
 
                 <p>
@@ -72,18 +72,18 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6">
-                        <p>
+                        <li><i class="fa fa-fw fa-envelope icon_fot" aria-hidden="true"></i>
                             Correo Electronico: crmorales@misena.edu.co
-                        </p>
-                        <p>
+                        </li>
+                        <li><i class="fa fa-fw fa-phone icon_fot" aria-hidden="true"></i>
                             Teléfono: 8748664
-                        </p>
+                        </li>
                     </div>
                     <div class="col-lg-6">
                         
                         <ul class="list-unstyled">
                             
-                            <li style="margin-bottom: 1rem;">
+                            <li style="margin-bottom: 1rem;"><i class="fa fa-fw fa-slack icon_fot" aria-hidden="true"></i>
                                Días hábiles de lunes a viernes de 7:00 a.m. - 7:00 p.m. y sábados de 8:00 a.m. - 1:00 p.m. en jornada continua.              
                             </li>
                             
