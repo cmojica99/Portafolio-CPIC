@@ -12,9 +12,9 @@
                     </button>
 
                     @if(Auth::check())
-                        <a href="{{ url('welcome') }}" class="navbar-brand" href="#"><img src="{{asset('imgs/bookl.png')}}" style="height: 50px;" alt=""></a>
+                        <a href="{{ url('welcome') }}" class="navbar-brand" href="#">PORTAFOLIO</a>
                       @else
-                        <a href="{{ url('/') }}" class="navbar-brand" href="#"><img src="{{asset('imgs/bookl.png')}}" style="height: 50px;" alt=""></a>
+                        <a href="{{ url('/') }}" class="navbar-brand" href="#">PORTAFOLIO</a>
                       @endif
                 </div>
 
@@ -27,10 +27,24 @@
                     <!-- Right Side Of Navbar -->
 
                     <ul class="nav navbar-nav navbar-right">
+                    
                         
-                        <li><a class="pop" href="{{ url('/contact')}}"> PROGRAMAS DE FORMACION </a></li>
-                            
-
+                        <li class="sub_top"><a class="pop" href=""> PROGRAMAS DE FORMACION </a>
+                            <ul class="sub_cate">
+                                <li class="sub_menu2">
+                                    <a class="redirect" href="">Formacion Titulada</a>
+                                </li>
+                                <li class="sub_menu2">
+                                    <a class="redirect" href="">Formacion Complementaria</a>
+                                </li>
+                                <li class="sub_menu2">
+                                    <a class="redirect" href="">Formacion Virtual</a>
+                                </li>
+                            </ul>
+                        </li>
+                    
+                        
+                   
                           
                         
 
