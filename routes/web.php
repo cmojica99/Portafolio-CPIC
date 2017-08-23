@@ -26,4 +26,4 @@ Route::get('/admin', 'AdminController@index');
 
 Route::get('/contact', 'ContactController@index');
 
-Route::get('programas/crear', 'programsController@index');
+Route::resource('programas', 'ProgramController');

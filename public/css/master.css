@@ -10,6 +10,7 @@ body {
     border-color: transparent;
     outline: 0;
     box-shadow: none;
+<<<<<<< HEAD
   }
   #sidebar {
     background: #efefef;
@@ -26,6 +27,10 @@ body {
     padding-top: 100px;
   }
   section.acordeon{
+=======
+}
+section.acordeon{
+>>>>>>> fa817e5bbd2f64cd5fa2efe1a449aa3d8610dd69
     margin-bottom: 120px;
   }
   .DropD{
@@ -42,6 +47,7 @@ body {
     bottom: 0;
     left: 0;
 
+<<<<<<< HEAD
   }
   #sidebar-content {
     padding: 2rem;
@@ -57,6 +63,18 @@ body {
     right: 15px;
   }
   #perfil{
+=======
+}
+
+.elim, .edit{
+  position: absolute;
+  background-color:  rgba(255, 255, 255, 0.29);
+}
+.elim{
+  right: 15px;
+}
+#perfil{
+>>>>>>> fa817e5bbd2f64cd5fa2efe1a449aa3d8610dd69
     width: 215px;
     height: 215px;
     padding: 10px;
@@ -74,6 +92,7 @@ body {
 
  }
 
+<<<<<<< HEAD
  .owl-nav{
   color: #29647C;
   font-size: 14px;
@@ -103,6 +122,8 @@ body {
   top: 12%;
   left: -55px;
 }
+=======
+>>>>>>> fa817e5bbd2f64cd5fa2efe1a449aa3d8610dd69
 
 .item1 {
   position: relative;
@@ -240,7 +261,7 @@ a.navbar-brand:hover, .pop:hover {
 }
 
 h5{
-  color: #1885B1;
+  color: #0C6C6B;
 
 }
 ul.nav.navbar-nav.navbar-right {
@@ -328,42 +349,65 @@ ul.nav.navbar-nav.navbar-right li.sub_top:hover > ul.sub_cate {
 .icono-salud{
   position: absolute;
   right: -35px;
-  color: #1885B1;
+  color: #0C6C6B;
   
 
 }
 .icono-igualdad{
   position: absolute;
   left:-35px;
-  color: #1885B1;
+  color: #0C6C6B;
 
 }
 .icono-competencia{
+<<<<<<< HEAD
  position: absolute;
  right: -35px;
  color: #1885B1;
+=======
+   position: absolute;
+  right: -35px;
+  color: #0C6C6B;
+>>>>>>> fa817e5bbd2f64cd5fa2efe1a449aa3d8610dd69
  
 
 }
 .icono-feliz{
+<<<<<<< HEAD
  position: absolute;
  left:-35px;
  color: #1885B1; 
+=======
+   position: absolute;
+  left:-35px;
+  color: #0C6C6B; 
+>>>>>>> fa817e5bbd2f64cd5fa2efe1a449aa3d8610dd69
 }
 .icono-depor{
   position: absolute;
   right: -35px;
-  color: #1885B1; 
+  color: #0C6C6B; 
 }
 .icono-convive{
   position: absolute;
+  left:-45px;
+  color: #0C6C6B; 
+}
+.icono-lider{
+  position: absolute;
   left:-35px;
-  color: #1885B1; 
+  color: #0C6C6B; 
 }
 .icono-respon{
+<<<<<<< HEAD
  position: absolute;
  left:-35px;
  color: #1885B1;
+=======
+   position: absolute;
+  left:-35px;
+  color: #0C6C6B;
+>>>>>>> fa817e5bbd2f64cd5fa2efe1a449aa3d8610dd69
 }
 .bienestar{
   position: relative;
@@ -384,9 +428,10 @@ ul.nav.navbar-nav.navbar-right li.sub_top:hover > ul.sub_cate {
   padding: 2rem 0;
 }
 .tarjeta2{
-  border: 1px solid black;
+  border: 1px solid white;
   padding: 20px;
-  color:black;
+  color:white;
+  background-color: #0C6C6B;
 
 }
 nav.navbar-default.navbar-static-top{
@@ -413,6 +458,7 @@ nav.navbar-default.navbar-static-top{
   background-color: #0C6C6B;
   transform: scale(1.2);
   border: 1px solid white;
+  transition: 0.5s all;
 
 }
 button.btn-personalizada {

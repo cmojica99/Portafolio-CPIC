@@ -3,8 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Programs;
 
-class programsController extends Controller
+class ProgramController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +14,8 @@ class programsController extends Controller
      */
     public function index()
     {
-         return view('programas.crear');
+        return view('programas.index');
+
     }
 
     /**
@@ -23,7 +25,7 @@ class programsController extends Controller
      */
     public function create()
     {
-        return view('programas.crear');
+        return view('programas.create');
     }
 
     /**
@@ -32,9 +34,16 @@ class programsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store()
+    public function store(Request $request)
     {
-        return "sisas";
+       $programs = new Programs();
+       $programs->nombre_programa = $request->get('nombre_programa');
+       $programs->descripcion_programa = $request->get('descripcion_programa');
+       $programs->tipo_programa = $request->get('tipo_programa');
+       $programs->duracion = $request->get('duracion');
+       if($programs->save()) {
+            return redirect('programas/index')->with('status', 'El programa de formación fue adicionado con éxtio!');            
+        }
     }
 
     /**

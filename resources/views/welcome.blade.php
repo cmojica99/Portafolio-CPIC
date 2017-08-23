@@ -15,29 +15,30 @@
 	<div class="container">
 
 		<h1 class="text-center ali">Nuestros Aliados</h1>
+		<hr>
 		
 		<div class="row">
 			<div role="presentation" class="tarjeta1 col-md-3"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
 				<div class="tarjeta2 col-md-12">
-					<img src="{{ asset('imgs/sennova.png')}}" alt="" width="100%"></a>
+					<a href="http://www.sena.edu.co/es-co/formacion/Paginas/tecnologia-innovacion.aspx"><img src="{{ asset('imgs/sennova.png')}}" alt="" width="100%"></a></a>
 					<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus soluta possimus, tenetur similique quidem iste sunt! Dolores voluptatem a, impedit, in consequuntur temporibus soluta illo libero nostrum enim dolore at sit ea, natus suscipit dolorum minima quos iste labore ducimus quam. Delectus quae architecto assumenda eius animi modi illo voluptate.</p>
 				</div>
 			</div>
 			<div role="presentation" class="tarjeta1 col-md-3"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
 				<div class="tarjeta2 col-md-12">
-					<img src="{{ asset('imgs/ape.png')}}" width="100%" alt=""></a>
-					<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus soluta possimus, tenetur similique quidem iste sunt! Dolores voluptatem a, impedit, in consequuntur temporibus soluta illo libero nostrum enim dolore at sit ea, natus suscipit dolorum minima quos iste labore ducimus quam. Delectus quae architecto assumenda eius animi modi illo voluptate.</p>
+					<a href="https://agenciapublicadeempleo.sena.edu.co/"><img src="{{ asset('imgs/ape.png')}}" width="100%" alt=""></a></a>
+					<p>	Lorem ipsum dolor sit amet, consectetur adipisicing e	lit. Delectus soluta possimus, tenetur similique quidem iste sunt! Dolores voluptatem a, impedit, in consequuntur temporibus soluta illo libero nostrum enim dolore at sit ea, natus suscipit dolorum minima quos iste labore ducimus quam. Delectus quae architecto assumenda eius animi modi illo voluptate.</p>
 				</div>
 			</div>	
 			<div role="presentation" class="tarjeta1 col-md-3"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
 				<div class="tarjeta2 col-md-12">
-					<img src="{{ asset('imgs/tecnoparque.png')}}" width="100%" alt=""></a>
+					<a href="http://tecnoparque.sena.edu.co/"><img src="{{ asset('imgs/tecnoparque.png')}}" width="100%" alt=""></a></a>
 					<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus soluta possimus, tenetur similique quidem iste sunt! Dolores voluptatem a, impedit, in consequuntur temporibus soluta illo libero nostrum enim dolore at sit ea, natus suscipit dolorum minima quos iste labore ducimus quam. Delectus quae architecto assumenda eius animi modi illo voluptate.</p>
 				</div>
 			</div>
 			<div role="presentation" class="tarjeta1 col-md-3"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">
 				<div class="tarjeta2 col-md-12">
-					<img src="{{ asset('imgs/world skills.png')}}" width="100%" alt=""></a>
+					<a href="http://worldskills.sena.edu.co/"><img src="{{ asset('imgs/world skills.png')}}" width="100%" alt=""></a></a>
 					<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus soluta possimus, tenetur similique quidem iste sunt! Dolores voluptatem a, impedit, in consequuntur temporibus soluta illo libero nostrum enim dolore at sit ea, natus suscipit dolorum minima quos iste labore ducimus quam. Delectus quae architecto assumenda eius animi modi illo voluptate.</p>
 				</div>
 			</div>
@@ -114,6 +115,7 @@
 			</div>
 			<div class= "tex col-md-5 col-md-offset-2">
 				<div class="card-info">
+				<span class="icono-lider fa fa-slideshare fa-3x"></span>
 					<h5><strong>LIDERAZGO</strong><br></h5>
 					<p>
 						Fomenta la formación de líderes integrales con sentido de pertenencia hacia la institución que fortalezcan los espacios de representación y participación, como elementos para la construcción de ciudadanos socialmente responsables
@@ -136,7 +138,7 @@
 		<div class="row animated bounceIn">
 			<div class="col-md-5 col-md-offset-6">
 				<div class="card-info">
-				<span class="icono-convive fa fa-sign-language fa-3x"></span>
+				<span class="icono-convive fa fa-handshake-o fa-3x"></span>
 					<h5><strong>CONVIVENCIA</strong><br></h5>
 					<p>
 						Fomenta ambientes de convivencia y participación social a través de espacios de reflexión como actores activos en la construcción de una paz duradera y estable, enfocada en la formación profesional integral.
