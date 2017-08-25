@@ -229,6 +229,7 @@ ul.nav.navbar-nav.navbar-right {
 
 ul.nav.navbar-nav.navbar-right li.sub_top {
  background: transparent;
+ border-right: 1px solid
 }
 
 /* enlaces del menu */
@@ -261,10 +262,6 @@ ul.nav.navbar-nav.navbar-right li.sub_top {
 
 /* efecto al pasar el ratón por los items del menu */
 
-ul.nav.navbar-nav.navbar-right li.sub_top:hover {
- background:#5b78a7;
-
-}
 ul.nav.navbar-nav.navbar-right ul.sub_cate {
  display:none;
  position:absolute;
@@ -283,7 +280,7 @@ ul.nav.navbar-nav.navbar-right ul.sub_cate li.sub_menu2 {
  width:227px;
 }
 ul.nav.navbar-nav.navbar-right ul.sub_cate li.sub_menu2:hover {
- background: rgb(6,184,172);
+ background-color: #000;
 }
 
 /* enlaces de los items del menu nav.navbar-nav.navbar-right */
@@ -375,10 +372,15 @@ ul.nav.navbar-nav.navbar-right li.sub_top:hover > ul.sub_cate {
   background-color: #0C6C6B;
 
 }
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  background-color: transparent;
+  color: #000;
+
+  }
 nav.navbar-default.navbar-static-top{
 
   position: absolute;
-  padding: 8px;
+/*  padding: 8px;*/
   left: 0;
   right: 0;
   top: 5rem;
