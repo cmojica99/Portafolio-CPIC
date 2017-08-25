@@ -227,8 +227,23 @@ ul.nav.navbar-nav.navbar-right {
 
 /* items del menu */
 
-ul.nav.navbar-nav.navbar-right li.sub_top {
+ul.nav.navbar-nav.navbar-right li.sub_top:hover a:before {
  background: transparent;
+     -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+ul.nav.navbar-nav.navbar-right li.sub_top a:before {
+    background-color: #fff;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
 }
 
 /* enlaces del menu */
@@ -378,7 +393,6 @@ ul.nav.navbar-nav.navbar-right li.sub_top:hover > ul.sub_cate {
 nav.navbar-default.navbar-static-top{
 
   position: absolute;
-  padding: 8px;
   left: 0;
   right: 0;
   top: 5rem;
@@ -476,6 +490,8 @@ a.pola:hover {
 }
 .social_web{
   color: #fff;
+  position: relative;
+  top: 10px;
 }
 
 .label-effect{border: 0; padding: 4px 0; border-bottom: 1px solid #ccc; background-color: transparent; box-shadow: none;}
