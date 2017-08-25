@@ -315,28 +315,19 @@ ul.nav.navbar-nav.navbar-right li.sub_top:hover > ul.sub_cate {
 
 }
 .icono-competencia{
-<<<<<<< HEAD
- position: absolute;
- right: -35px;
- color: #1885B1;
-=======
+
    position: absolute;
   right: -35px;
   color: #0C6C6B;
->>>>>>> fa817e5bbd2f64cd5fa2efe1a449aa3d8610dd69
+
  
 
 }
 .icono-feliz{
-<<<<<<< HEAD
- position: absolute;
- left:-35px;
- color: #1885B1; 
-=======
+
    position: absolute;
   left:-35px;
   color: #0C6C6B; 
->>>>>>> fa817e5bbd2f64cd5fa2efe1a449aa3d8610dd69
 }
 .icono-depor{
   position: absolute;
@@ -354,15 +345,10 @@ ul.nav.navbar-nav.navbar-right li.sub_top:hover > ul.sub_cate {
   color: #0C6C6B; 
 }
 .icono-respon{
-<<<<<<< HEAD
- position: absolute;
- left:-35px;
- color: #1885B1;
-=======
    position: absolute;
   left:-35px;
   color: #0C6C6B;
->>>>>>> fa817e5bbd2f64cd5fa2efe1a449aa3d8610dd69
+
 }
 .bienestar{
   position: relative;
@@ -392,12 +378,12 @@ ul.nav.navbar-nav.navbar-right li.sub_top:hover > ul.sub_cate {
 nav.navbar-default.navbar-static-top{
 
   position: absolute;
+  padding: 8px;
   left: 0;
   right: 0;
   top: 5rem;
   background: rgba(0,0,0, 0.50);
   border-bottom: 0px solid rgba(0, 0, 0, 0.5);
-  height: 51px;
 }
 .background_png{
   background: url(../imgs/bgc.png)no-repeat center center;
