@@ -48,11 +48,11 @@
                           
                         
 
-                        <li><a class="pop" href="{{ url('/contact')}}"> CONTACTANOS </a></li>
+                        <li class="sub_top"><a class="pop" href="{{ url('/contact')}}"> CONTACTANOS </a></li>
                     
                         <!-- Authentication Links -->
                         @if (Auth::guest())
-                            <li><a href="#" data-toggle="modal" data-target="#myModal">INICIAR SESION</a></li>                            
+                            <li class="sub_top"><a href="#" data-toggle="modal" data-target="#myModal">INICIAR SESION</a></li>                            
                         @else
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -74,6 +74,9 @@
                                 </ul>
                             </li>
                         @endif
+                        <a href="" data-toggle="tooltip" title="Facebook" class=" social_web"><i class="fa fa-facebook fa-2x social_networks"></i>
+                        </a>
+                        <a  social_networkshref="" data-toggle="tooltip" title="Twitter" class=" social_web "><i class="fa fa-twitter-square fa-2x social_networks" aria-hidden="true"></i></a>
                     </ul>
                 </div>
             </div>
