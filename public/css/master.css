@@ -374,7 +374,7 @@ ul.nav.navbar-nav.navbar-right li.sub_top:hover > ul.sub_cate {
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   background-color: transparent;
-  color: #000;
+  color: #00;
 
   }
 nav.navbar-default.navbar-static-top{
@@ -419,8 +419,8 @@ button#btnOpenModal {
   height: 25px;
   width: 100px;
   position: relative;
-  left: 700px;
   font-family: Tahoma;
+  border: 1px solid red;
 
 }
 button#btnOpenModal:hover {

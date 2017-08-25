@@ -1,3 +1,6 @@
+   @extends('layouts.app')
+@section('title', 'Portafolio CPIC')
+
     <div id="app">
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container fluid">
@@ -52,9 +55,10 @@
                     
                         <!-- Authentication Links -->
                         @if (Auth::guest())
-                            <li><a class="pop" href="{{ route('login') }}">INICIAR SESION</a></li>
+                           <button id="btnOpenModal"  href="{{ route('login') }}">INICIAR SESION</button>
                             
                         @else
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                                     {{ Auth::user()->name }} <span class="caret"></span>
