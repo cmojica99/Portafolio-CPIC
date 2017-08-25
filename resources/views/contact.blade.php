@@ -55,7 +55,7 @@
 
 
 
-                	<button id="enviar_cont" class="btn btn-success" type="submit">Enviar</button> 
+                	<button id="enviar_cont" onclick='alert("ESTA ES EL ALERTA.")' class="btn btn-success" type="submit">Enviar</button> 
                 </form>
 
                     

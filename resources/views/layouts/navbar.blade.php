@@ -52,7 +52,7 @@
                     
                         <!-- Authentication Links -->
                         @if (Auth::guest())
-                            <li class="sub_top"><a href="#" data-toggle="modal" data-target="#myModal">INICIAR SESION</a></li>                            
+                            <li class="sub_top"><a class="pop" href="#" data-toggle="modal" data-target="#myModal">INICIAR SESION</a></li>                            
                         @else
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
