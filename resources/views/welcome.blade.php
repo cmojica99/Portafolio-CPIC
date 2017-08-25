@@ -196,7 +196,7 @@
 				</div>
 				
 
-				<p class="">&copy; Todos los derechos reservados {{date('Y')}}  </p>        
+				<p class="cpi">&copy; Todos los derechos reservados {{date('Y')}}  </p>        
 			</div>
 
 			<div class="col-md-5 etica_sena">

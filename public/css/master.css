@@ -227,12 +227,12 @@ ul.nav.navbar-nav.navbar-right {
 
 /* items del menu */
 
-ul.nav.navbar-nav.navbar-right li.sub_top:hover a:before {
- background: transparent;
+ul.nav.navbar-nav.navbar-right li.sub_top:hover a.pop:before {
+
      -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
-ul.nav.navbar-nav.navbar-right li.sub_top a:before {
+ul.nav.navbar-nav.navbar-right li.sub_top a.pop:before {
     background-color: #fff;
     bottom: 0;
     content: "";
@@ -244,6 +244,9 @@ ul.nav.navbar-nav.navbar-right li.sub_top a:before {
     transform: scaleX(0);
     -webkit-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
+}
+.cpi {
+  margin-top: 20px;
 }
 
 /* enlaces del menu */
@@ -263,6 +266,9 @@ ul.nav.navbar-nav.navbar-right a.redirect {
 ul.nav.navbar-nav.navbar-right a.redirect:hover {
   text-decoration: none;
 }
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #fff;
+}
 
 /* items del menu */
 
@@ -276,10 +282,6 @@ ul.nav.navbar-nav.navbar-right li.sub_top {
 
 /* efecto al pasar el ratón por los items del menu */
 
-ul.nav.navbar-nav.navbar-right li.sub_top:hover {
- background:#5b78a7;
-
-}
 ul.nav.navbar-nav.navbar-right ul.sub_cate {
  display:none;
  position:absolute;
@@ -298,7 +300,7 @@ ul.nav.navbar-nav.navbar-right ul.sub_cate li.sub_menu2 {
  width:227px;
 }
 ul.nav.navbar-nav.navbar-right ul.sub_cate li.sub_menu2:hover {
- background: rgb(6,184,172);
+ background-color: #000;
 }
 
 /* enlaces de los items del menu nav.navbar-nav.navbar-right */
