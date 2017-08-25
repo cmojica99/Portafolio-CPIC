@@ -61,8 +61,8 @@
     </form>
 
 </div>
-<div class="modal-footer">
-    <button type="button" class="cerrar btn btn-default" data-dismiss="modal">Cerrar</button>
+<div class="modal-footer ">
+    <h4 class="text-center"><i class="fa fa-copyright"></i>Todos los derechos reservados</h4>
 </div>
 </div>
 </div>
