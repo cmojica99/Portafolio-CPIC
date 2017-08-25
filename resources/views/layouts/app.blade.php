@@ -67,9 +67,9 @@
     @endif
 
     
-                                <ul class="dropdown-menu" role="menu">
-                                    
-                                </ul>
+        <ul class="dropdown-menu" role="menu">
+            
+        </ul>
 
         
         <div id="{{ Auth::check() ? 'main-content' : ''}}">

@@ -1,6 +1,3 @@
-   @extends('layouts.app')
-@section('title', 'Portafolio CPIC')
-
     <div id="app">
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container fluid">
@@ -15,9 +12,9 @@
                     </button>
 
                     @if(Auth::check())
-                        <a href="{{ url('welcome') }}" class="navbar-brand" href="#"><img src="{{ asset('imgs/bookl.png')}}" alt="" style="height: 35px;"></a>
+                        <a href="{{ url('welcome') }}" class="navbar-brand" href="#">PORTAFOLIO</a>
                       @else
-                        <a href="{{ url('/') }}" class="navbar-brand" href="#"><img src="{{ asset('imgs/bookl.png')}}" alt="" style="height: 35px;"></a>
+                        <a href="{{ url('/') }}" class="navbar-brand" href="#">PORTAFOLIO</a>
                       @endif
                 </div>
 
@@ -55,10 +52,8 @@
                     
                         <!-- Authentication Links -->
                         @if (Auth::guest())
-                           <button id="btnOpenModal"  href="{{ route('login') }}">INICIAR SESION</button>
-                            
+                            <li><a href="#" data-toggle="modal" data-target="#myModal">INICIAR SESION</a></li>                            
                         @else
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                                     {{ Auth::user()->name }} <span class="caret"></span>

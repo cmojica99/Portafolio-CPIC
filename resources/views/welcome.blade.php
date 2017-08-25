@@ -1,8 +1,10 @@
 
 @extends('layouts.app')
 @section('title', 'Portafolio CPIC')
-@include('layouts.navbar')
 @section('content')
+@include('layouts.navbar')
+@include('auth.login')
+
 <!-- Slider -->
 <section class="slider">
 	<div class="container background_png">
