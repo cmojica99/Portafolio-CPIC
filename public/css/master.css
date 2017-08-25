@@ -374,7 +374,7 @@ ul.nav.navbar-nav.navbar-right li.sub_top:hover > ul.sub_cate {
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   background-color: transparent;
-  color: #00;
+  color: #000;
 
   }
 nav.navbar-default.navbar-static-top{
