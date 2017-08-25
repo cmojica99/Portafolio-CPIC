@@ -320,8 +320,6 @@ ul.nav.navbar-nav.navbar-right li.sub_top:hover > ul.sub_cate {
   right: -35px;
   color: #0C6C6B;
 
- 
-
 }
 .icono-feliz{
 
@@ -405,8 +403,7 @@ nav.navbar-default.navbar-static-top{
 
 /*ventana modal*/
 button#btnOpenModal {
-  background-color: rgba(12, 108, 107);
-  color: #000000;
+  background-color: #0C6C6B;
   border-radius: 10%;
   display: block;
   font-size: 15px;
@@ -414,7 +411,7 @@ button#btnOpenModal {
 }
 
 button#btnOpenModal:hover {
-  background-color: rgba(0, 120, 128, 0.63);
+  background-color: #0C6C6B;
   cursor: pointer;
 }
 .form-horizontal{
@@ -430,9 +427,8 @@ button#btnOpenModal:hover {
   width: 100%;
   padding: 10px;
 }
-section#modal {
-  text-align: justify;
-}
+
+
 
 
 #button_co{
