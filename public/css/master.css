@@ -441,6 +441,16 @@ button#btnOpenModal:hover {
   width: 100%;
   padding: 10px;
 }
+.modal-body{
+  background-color: #F5F5F5;
+}
+.modal-header{
+  background: #F5F5F5;
+}
+.modal-footer{
+  background: #F5F5F5;
+
+}
 
 
 
